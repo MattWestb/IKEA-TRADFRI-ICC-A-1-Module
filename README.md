@@ -43,9 +43,13 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 * PD13 Flash SCLK
 * PF3 Flash enable (on ICC-A-1 / Pin 09 on ICC-1)
 
-And more from [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout).
-
 For serial use pin 05 (PC11) as RX and pin 04 (PC10) as TX and pin 02 (PB15) for bootloader.
+
+
+### Flashing:
+
+With  JLink: [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout).  
+With  Blue Pill as a SWD probe (STM32F103 board): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).
 
 
 ### Firmware:
