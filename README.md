@@ -14,34 +14,41 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 * 2 Mbit SPI NOR Flash: IS25LQ020B
 * Crystal: 38.4 MHz
 
+
 ### Module Pinout:
+
 From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module):
 
-* Pin  ID (EFR32 pins)  Description
-* 01  GND 
-* 02  PB15
-* 03  PB14
-* 04  PC10
-* 05  PC11  Present at 2 locations on PCB
-* 06  PF0 SWCLK
-* 07  PF1 SWDIO
-* 08  PF2 SWO
-* 09  PF3 (ICC-1) / GND (ICC-A-1)
-* 10  RESETn
-* 11  VDD  PAVDD, IOVDD, VREGVDD, VREGSW, VREGVSS
-* 12  GND
-* 13  PB13 
-* 14  PB12
-* 15  PA1
-* 16  PA0
-* 17  PC11  Present at 2 locations on PCB
+| Pin |ID (EFR32 pins) | Description |
+|------------|-----------|-------|
+| 01         | GND       | |
+| 02         | PB15      | |
+| 03         | PB14      | |
+| 04         | PC10      | |
+| 05         | PC11      | Present at 2 locations on PCB |
+| 06         | PF0       | SWCLK |
+| 07         | PF1       | SWDIO |
+| 08         | PF2       | SWO   |
+| 09         | PF3       | (ICC-1) / GND (ICC-A-1) |
+| 10         | RESETn    | | 
+| 11         | VDD       | PAVDD, IOVDD, VREGVDD, VREGSW, VREGVSS | 
+| 12         | GND       | | 
+| 13         | PB13      | | 
+| 14         | PB12      | | 
+| 15         | PA1       | | 
+| 16         | PA0       | | 
+| 17         | PC11      | Present at 2 locations on PCB | 
+
 
 ### Internal :
-* PB11 Flash CS
-* PD15 Flash MOSI
-* PD14 Flash MISO
-* PD13 Flash SCLK
-* PF3 Flash enable (on ICC-A-1 / Pin 09 on ICC-1)
+
+| ID (EFR32 pins) | Description |
+|------------|-----------|
+| PB11 | Flash CS |
+| PD15 | Flash MOSI |
+| PD14 | Flash MISO |
+| PD13 | Flash SCLK |
+| PF3 | Flash enable (on ICC-A-1 / Pin 09 on ICC-1) |
 
 For serial use pin 05 (PC11) as RX and pin 04 (PC10) as TX and pin 16 (PA0 = LL buttom) for bootloader trigger.
 
@@ -56,13 +63,18 @@ With  Blue Pill as a SWD probe (STM32F103 board): [ZW](https://github.com/zw/TRA
 
 Bootloader: Perhaps need to being upgraded.
 
+
 #### Zigbee EmberZNet: ver 6.7.6.0: 
+
 [Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.6.0.pdf) EZSP Protocol Version 8 and Secure EZSP Protocol Version 2. (Changed in release 6.7.0.0). Both EZSP and Secure EZSP have adopted a new frame format with the following changes: (1) the fields of "Frame Control" and "Frame ID" are now two bytes; (2) no longer use "Legacy Frame ID"; (3) consume two bits of "Frame Control" to indicate the frame format version
 which is version 1 now. 
 
 This its the braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.
 
+
 #### Zigbee EmberZNet: ver 6.6.4.0:
+
 [Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.6.4.0.pdf) Laterst version with EZSP Protocol Version 7 and Secure EZSP Protocol Version 1. 
 
 Its backword compatible with the old EZSP protocol (EM358x) used in zigpy / bellows and making it working in with HA and OpenHab.
+
