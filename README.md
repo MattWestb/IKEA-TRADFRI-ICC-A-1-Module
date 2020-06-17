@@ -43,7 +43,7 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 * PD13 Flash SCLK
 * PF3 Flash enable (on ICC-A-1 / Pin 09 on ICC-1)
 
-For serial use pin 05 (PC11) as RX and pin 04 (PC10) as TX and pin 02 (PB15) for bootloader.
+For serial use pin 05 (PC11) as RX and pin 04 (PC10) as TX and pin 16 (PA0 = LL buttom) for bootloader trigger.
 
 
 ### Flashing:
