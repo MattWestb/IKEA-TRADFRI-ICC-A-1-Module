@@ -36,7 +36,7 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 | 13         | PB13      | | 
 | 14         | PB12      | | 
 | 15         | PA1       | | 
-| 16         | PA0       | | 
+| 16         | PA0       | Normaly LL buttom | 
 | 17         | PC11      | Present at 2 locations on PCB | 
 
 
