@@ -4,7 +4,7 @@
 
 [s-hadinger](https://github.com/s-hadinger) have the EZSP upp and running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) with help of [mtx512](https://github.com/mtx512)
 our maker of bootoader and coordinator firmware.
-If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/article/2583).
+If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/article/2583).  
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.
 
 
@@ -63,7 +63,15 @@ With ESP8266 and BlackMagicProbe: [BlackMagic-espidf](https://github.com/MattWes
 
 Dumped one new (never pared) LED1837R5 with BlackMagic-espidf.  
 
-Bootloader: Perhaps need to being upgraded.
+Bootloader: Needs to being upgraded.
+
+[mtx512](https://github.com/mtx512) have compilles a inital [firmware set](https://github.com/mtx512/efr32/tree/master/icc-a-1).  
+
+Have not tested it then bootloader its only in s37 format and need it in elf or in bin and converting it to elf.  
+If using jlink its possible flash the bootloader with s37 but i have only Blackmagic probe on ESP8266 so need elf formated file.  
+Have sending a request to mxt512 for a bootloader in bin formate so i can converting it to elf.  
+
+Then having the new bootloader in place it its only booting in bootloader mode with the LigthingLink button(if using a controll device) then poweron and upload the EZSP from the bootloader over serial. 
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
