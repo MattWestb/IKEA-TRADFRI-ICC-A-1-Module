@@ -56,8 +56,8 @@ For serial use pin 05 (PC11) as RX and pin 04 (PC10) as TX and pin 16 (PA0 = LL 
 ### Flashing:
 
 With  JLink: [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout).  
-With  Blue Pill as a BlackMagicProbe SWD probe (STM32F103 board): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
-With ESP8266 and BlackMagicProbe: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf)
+With  Blue Pill as a BlackMagicProbe (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
+With ESP8266 as a BlackMagicProbe: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).
 
 ### Firmware:
 
