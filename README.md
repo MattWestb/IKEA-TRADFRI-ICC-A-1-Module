@@ -88,3 +88,8 @@ This its the braking thing for zigpy / bellows thats making the 6.7.x.x and newe
 
 Its backword compatible with the old EZSP protocol (EM358x) used in zigpy / bellows and making it working in with HA and OpenHab.
 
+## More references and sources of information
+- basilfx hacking IKEA TRÅDFRI light bulbs and accessories: https://github.com/basilfx/TRADFRI-Hacking
+- Detailed hardware specification from RIOT OS: https://github.com/RIOT-OS/RIOT/blob/master/boards/ikea-tradfri/doc.txt
+- Official manual from Silabs: https://www.silabs.com/documents/public/reference-manuals/efr32xg1-rm.pdf
+- Official datasheet from Silabs: https://www.silabs.com/documents/public/data-sheets/efr32mg1-datasheet.pdf
