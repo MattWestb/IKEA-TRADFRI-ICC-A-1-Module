@@ -63,7 +63,7 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 | 08         | PF2       | SWO   |
 | 11         | VDD       | 3.3V | 
 | 12         | GND       | GND |
-| 16         | PA0       | Force bootloader buttom | 
+| 16         | PA0       | Force bootloader (LL) buttom | 
 
 
 ### Flashing:
