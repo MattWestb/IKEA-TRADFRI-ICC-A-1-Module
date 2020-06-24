@@ -20,7 +20,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 
 From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module):
 
-| Pin |ID (EFR32 pins) | Description |
+| Pad |ID (EFR32 pins) | Description |
 |------------|-----------|-------|
 | 01         | GND       | |
 | 02         | PB15      | |
@@ -51,7 +51,19 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 | PD13 | Flash SCLK |
 | PF3 | Flash enable (on ICC-A-1 / Pin 09 on ICC-1) |
 
-For serial use pin 05 (PC11) as RX and pin 04 (PC10) as TX and pin 16 (PA0 = LL buttom) for bootloader trigger.
+
+### EZSP use :
+
+| Pad |ID (EFR32 pins) | Description |
+|------------|-----------|-------|
+| 04         | PC10      | TX |
+| 05         | PC11      | RX |
+| 06         | PF0       | SWCLK |
+| 07         | PF1       | SWDIO |
+| 08         | PF2       | SWO   |
+| 11         | VDD       | 3.3V | 
+| 12         | GND       | GND |
+| 16         | PA0       | Force bootloader buttom | 
 
 
 ### Flashing:
