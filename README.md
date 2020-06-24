@@ -77,12 +77,14 @@ Then having the new bootloader in place it its only booting in bootloader mode t
 [Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.6.0.pdf) 2.2 API Changes: EZSP Protocol Version 8 and Secure EZSP Protocol Version 2. (Changed in release 6.7.0.0). Both EZSP and Secure EZSP have adopted a new frame format with the following changes: (1) the fields of "Frame Control" and "Frame ID" are now two bytes; (2) no longer use "Legacy Frame ID"; (3) consume two bits of "Frame Control" to indicate the frame format version
 which is version 1 now. 
 
-This its the braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.
+Disabling fallback to older prottokoll making its a braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
+
+Zigpy have starting looking getting v8 support and also some Zigbee2Mqtt fans are trying implenting EZSP in Z2M. 
 
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
 
 [Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.6.4.0.pdf) Laterst version with EZSP Protocol Version 7 and Secure EZSP Protocol Version 1. 
 
-Its backword compatible with the old EZSP protocol (EM358x) used in zigpy / bellows and making it working in with HA and OpenHab.
+Its backword compatible with the old EZSP protocol (v 4/5) used in zigpy / bellows and making it working in with HA and OpenHab.
 
