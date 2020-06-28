@@ -105,10 +105,8 @@ From /RIOT-OS
 
 ### Flashing:
 
-With  JLink: [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout).  
-With  Blue Pill as a BlackMagicProbe (BMP) (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
-With ESP8266 as a BlackMagicProbe (BMP): [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
-(BMP: if problem connecting to the device or writing to fals add one around 100 Ohm restistor in serie with SWLK).  
+[Flashing ICC-1](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Flashing-MG).  
+
 
 ### Firmware:
 
