@@ -63,6 +63,7 @@ EFR32MG1P 132 F256 = Mighty Gecko 256kiB flash, 32kiB ram
 Device says flash page size is 2048 bytes, we're using 2048 bytes  
   
 Radio si0  
+(gdb)  
 ```  
 
 ## Mem regions:
@@ -75,6 +76,7 @@ Num Enb Low Addr   High Addr  Attrs
 1   y   0x0fe00000 0x0fe00800 flash blocksize 0x800 nocache  
 2   y   0x0fe10000 0x0fe12800 flash blocksize 0x800 nocache  
 3   y   0x20000000 0x20008000 rw nocache  
+(gdb)  
 ```
 
 Reg 0 = Flash (256K)  
