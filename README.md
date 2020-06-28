@@ -30,7 +30,7 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 | 06         | PF0       | SWCLK |
 | 07         | PF1       | SWDIO |
 | 08         | PF2       | SWO   |
-| 09         | PF3       | (ICC-1) / GND (ICC-A-1) |
+| 09         | PF3 / GND | ICC-1 / ICC-A-1 |
 | 10         | RESETn    | | 
 | 11         | VDD       | PAVDD, IOVDD, VREGVDD, VREGSW, VREGVSS | 
 | 12         | GND       | | 
