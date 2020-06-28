@@ -20,7 +20,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 
 From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module):
 
-| Pad |ID (EFR32 pins) | Description |
+| Pad | EFR32 pins | Description |
 |------------|-----------|-------|
 | 01         | GND       | |
 | 02         | PB15      | |
@@ -43,7 +43,7 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 
 ### Internal :
 
-| ID (EFR32 pins) | Description |
+| EFR32 pins | Description |
 |------------|-----------|
 | PB11 | Flash CS |
 | PD15 | Flash MOSI |
@@ -51,10 +51,32 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 | PD13 | Flash SCLK |
 | PF3 | Flash enable (on ICC-A-1 / Pin 09 on ICC-1) |
 
+### Known module pins
+
+| Pad | EFR32 pins | Standard use | E1524 | E1743 |  ICTC-G-1 |
+|------------|-----------|-------|-------|-------|-------|
+| 01         | GND       | GND | GND |GND | GND |
+| 02         | PB15      |  | Left |  |  |
+| 03         | PB14      |  | Down |  |  |
+| 04         | PC10      |  | On/Off | On/Up |  |
+| 05         | PC11      |  | Right |  |  |
+| 06         | PF0       | SWD Debug |  |  |  |
+| 07         | PF1       | SWD Debug |  |  |  |
+| 08         | PF2       | SWD Debug |  |  |  |
+| 09         | PF3       |  |  |  |  |  |
+| 10         | RESETn    | Reset | Reset | Reset | Reset |
+| 11         | VDD       |  3.3V | 3.3V | 3.3V | 3.3V |
+| 12         | GND       | GND | GND | GND | GND |
+| 13         | PB13      | PMW 1 | LED | LED |  |
+| 14         | PB12      | PMW 2 |  | Off/Down |  |
+| 15         | PA1       | PMW 3 | Up |  |  |
+| 16         | PA0       | LL Buttom | LLB | LLB |  |
+| 17         | PC11      |  |  |  |  |
+
 
 ### EZSP use :
 
-| Pad |ID (EFR32 pins) | Description |
+| Pad | EFR32 pins | Description |
 |------------|-----------|-------|
 | 04         | PC10      | TX |
 | 05         | PC11      | RX |
