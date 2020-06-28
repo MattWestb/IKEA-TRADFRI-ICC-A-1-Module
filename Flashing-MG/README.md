@@ -14,6 +14,7 @@ Starting [arm-none-eabi-gdb](https://developer.arm.com/tools-and-software/open-s
 
 ```
 arm-none-eabi-gdb
+(gdb)  
 (gdb) target extended-remote COM2 (For ports >= COM10 use "target extended-remote \\.\COM10")  
 Remote debugging using COM2  
 ...........  
@@ -25,6 +26,7 @@ Remote debugging using COM2
 Starting [gdb-multiarch](https://packages.ubuntu.com/focal/gdb-multiarch)  
 ```
 gdb-multiarch
+(gdb)  
 (gdb) target extended-remote /dev/ttyACM0  
 Remote debugging using /dev/ttyACM0  
 ...........  
@@ -33,6 +35,7 @@ Remote debugging using /dev/ttyACM0
 
 ### Windows / Lubuntu with [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf):  
 ```
+(gdb)  
 (gdb) target extended-remote 192.168.4.1:2022  
 Remote debugging using 192.168.4.1:2022  
 ...........  
@@ -41,6 +44,7 @@ Remote debugging using 192.168.4.1:2022
 
 ## Conecting Mighty Gecko:  
 ```
+(gdb)  
 (gdb) mon sw  
 Available Targets:  
 No. Att Driver  
@@ -63,6 +67,7 @@ Radio si0
 
 ## Mem regions:
 ```
+(gdb)  
 (gdb) info mem  
 Using memory regions provided by the target.  
 Num Enb Low Addr   High Addr  Attrs  
@@ -80,15 +85,19 @@ Reg 3 = Ram (32K)
 
 ## Dumping to file:
 ```
+(gdb)  
 (gdb) dump memory XYZ18.bin 0x0fe10000 0x0fe12800  
 (gdb) dump memory XYZ19.bin 0x0fe00000 0x0fe00800  
 (gdb) dump memory XYZ20.bin 0x20000000 0x20008000  
-  ```
+(gdb)  
+ ```
 
 ## Erase flash:  
 ```
+(gdb)  
 (gdb) mon erase_mass  
 Erase successful!  
+(gdb)  
 ```
 After erase_mass you must writing a bootloader to the flash as elf file @0x0 for the first bootloader (or one dumped with both bootloder @0x0) and @0x800 for the main bottloader or one s37 file (s37 have all meta inside).  
 If not writing anny app @0x4000 or the app its not flaged OK next boot is stoping in the main bootloader.  
@@ -102,20 +111,26 @@ Coverting bin file to elf in a terminal.
 [arm-none-eabi-objcopy](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 ```
 arm-none-eabi-objcopy --input-target binary --output-target elf32-little XYZ18.bin XYZ18.elf  
+```
 
+```
+(gdb)  
 (gdb) load XYZ18.elf 0x0 ([FILE] [OFFSET])  
 Loading section .data, size 0x40000 lma 0x0  
 Start address 0x0, load size 262144  
 Transfer rate: 24 KB/sec, 985 bytes/write.  
+(gdb)  
   ```
   
 ### .s37 files:  
   ```
+(gdb)  
 (gdb) load ncp-uart-sw.s37  
 Loading section .sec1, size 0xac lma 0x4000  
 Loading section .sec2, size 0x30300 lma 0x4100  
 Start address 0x41c8, load size 197548  
 Transfer rate: 23 KB/sec, 968 bytes/write.  
+(gdb)  
 ```
 
 ## Bootloader app flashing:  
