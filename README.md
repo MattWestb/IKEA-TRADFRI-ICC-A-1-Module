@@ -74,7 +74,7 @@ From /RIOT-OS
 | 02         | PB15      |  | Left |  |  |
 | 03         | PB14      |  | Down |  |  |
 | 04         | PC10      |  | On/Off | On/Up |  |
-| 05         | PC11      |  | Right |  |  |
+| 05         | PC11      |  | Right | LED |  |
 | 06         | PF0       | SWD Debug |  |  |  |
 | 07         | PF1       | SWD Debug |  |  |  |
 | 08         | PF2       | SWD Debug |  |  |  |
@@ -82,7 +82,7 @@ From /RIOT-OS
 | 10         | RESETn    | Reset | Reset | Reset | Reset |
 | 11         | VDD       |  3.3V | 3.3V | 3.3V | 3.3V |
 | 12         | GND       | GND | GND | GND | GND |
-| 13         | PB13      | PMW 1 | LED | LED |  |
+| 13         | PB13      | PMW 1 | LED |  |  |
 | 14         | PB12      | PMW 2 |  | Off/Down |  |
 | 15         | PA1       | PMW 3 | Up |  |  |
 | 16         | PA0       | LL Buttom | LLB | LLB |  |
