@@ -4,7 +4,7 @@ Then not having any JLink: €ß$ [Basilfix](https://github.com/basilfx/TRADFRI-
 With BlackMagic Probe (BMP) or 
 with  Blue Pill as a BMP (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
 With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
-(BMP: if problem connecting to the device or writing to fals add one around 100 Ohm restistor in serie with SWLK). 
+(BMP: if problem connecting to the device or writing to fails add one around 100 Ohm restistor in serie with SWLK). 
 
 ## Wundows:
 Open a cmd or PowerShell.
