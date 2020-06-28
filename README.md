@@ -85,7 +85,7 @@ From /RIOT-OS
 | 13         | PB13      | PMW 1 | LED |  |  |  |
 | 14         | PB12      | PMW 2 |  | Off/Down |  | On/Off |
 | 15         | PA1       | PMW 3 | Up |  |  | LED |
-| 16         | PA0       | LL Buttom | LLB | LLB |  | LLB |
+| 16         | PA0       | PMW 4 | LLB | LLB |  | LLB |
 | 17         | PC11      |  |  |  |  |
 
 
