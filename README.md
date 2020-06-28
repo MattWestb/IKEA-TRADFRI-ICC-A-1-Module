@@ -51,6 +51,21 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 | PD13 | Flash SCLK |
 | PF3 | Flash enable (on ICC-A-1 / Pin 09 on ICC-1) |
 
+### Peripheral mapping
+From /RIOT-OS
+
+| Peripheral | Number  | Hardware        | Pins                              | Comments                                            |
+|------------|---------|-----------------|-----------------------------------|-----------------------------------------------------|
+| ADC        | 0       | ADC0            | CHAN0: internal temperature       | Ports are fixed, 14/16-bit resolution not supported |
+| HWCRYPTO   | &mdash; | &mdash;         |                                   | AES128/AES256, SHA1, SHA256                         |
+| RTT        | &mdash; | RTCC            |                                   | 1 Hz interval. Either RTT or RTC (see below)        |
+| RTC        | &mdash; | RTCC            |                                   | 1 Hz interval. Either RTC or RTT (see below)        |
+| SPI        | 0       | USART1          | MOSI: PD15, MISO: PD14, CLK: PD13 |                                                     |
+| Timer      | 0       | TIMER0 + TIMER1 |                                   | TIMER0 is used as prescaler (must be adjecent)      |
+| UART       | 0       | USART0          | RX: PB15, TX: PB14                | Default STDIO output                                |
+| LEUART     | 0       | LEUART0         | RX: PB15, TX: PB14                | Alternate to using UART                             |
+
+
 ### Known module pins
 
 | Pad | EFR32 pins | Standard use | E1524 | E1743 |  ICTC-G-1 |
