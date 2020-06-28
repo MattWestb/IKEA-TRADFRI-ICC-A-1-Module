@@ -68,24 +68,24 @@ From /RIOT-OS
 
 ### Known module pins
 
-| Pad | EFR32 pins | Standard use | E1524 | E1743 |  ICTC-G-1 |
-|------------|-----------|-------|-------|-------|-------|
-| 01         | GND       | GND | GND |GND | GND |
-| 02         | PB15      |  | Left |  |  |
-| 03         | PB14      |  | Down |  |  |
-| 04         | PC10      |  | On/Off | On/Up |  |
-| 05         | PC11      |  | Right | LED |  |
-| 06         | PF0       | SWD Debug |  |  |  |
-| 07         | PF1       | SWD Debug |  |  |  |
-| 08         | PF2       | SWD Debug |  |  |  |
-| 09         | PF3       |  |  |  |  |  |
-| 10         | RESETn    | Reset | Reset | Reset | Reset |
-| 11         | VDD       |  3.3V | 3.3V | 3.3V | 3.3V |
-| 12         | GND       | GND | GND | GND | GND |
-| 13         | PB13      | PMW 1 | LED |  |  |
-| 14         | PB12      | PMW 2 |  | Off/Down |  |
-| 15         | PA1       | PMW 3 | Up |  |  |
-| 16         | PA0       | LL Buttom | LLB | LLB |  |
+| Pad | EFR32 pins | Standard use | E1524 | E1743 |  ICTC-G-1 | E1603 |
+|------------|-----------|-------|-------|-------|-------|-------|
+| 01         | GND       | GND | GND |GND | GND |  |
+| 02         | PB15      |  | Left |  |  |  |
+| 03         | PB14      |  | Down |  |  |  |
+| 04         | PC10      |  | On/Off | On/Up |  |  |
+| 05         | PC11      |  | Right | LED |  |  |
+| 06         | PF0       | SWD Debug |  |  |  |  |
+| 07         | PF1       | SWD Debug |  |  |  |  |
+| 08         | PF2       | SWD Debug |  |  |  |  |
+| 09         | PF3       |  |  |  |  |  |  |
+| 10         | RESETn    | Reset | Reset | Reset | Reset |  |
+| 11         | VDD       |  3.3V | 3.3V | 3.3V | 3.3V | 3.3V |
+| 12         | GND       | GND | GND | GND | GND | GND |
+| 13         | PB13      | PMW 1 | LED |  |  |  |
+| 14         | PB12      | PMW 2 |  | Off/Down |  | On/Off |
+| 15         | PA1       | PMW 3 | Up |  |  | LED |
+| 16         | PA0       | LL Buttom | LLB | LLB |  | LLB |
 | 17         | PC11      |  |  |  |  |
 
 
