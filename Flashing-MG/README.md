@@ -10,9 +10,8 @@ With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmag
 Open a cmd or PowerShell.
 Move to a directory with wrigth promission (Your Documents).
 
-Starting gdb.
+Starting [arm-none-eabi-gdb](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads).
 
-[arm-none-eabi-gdb](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 ```
 arm-none-eabi-gdb
 (gdb) target extended-remote COM2 (For ports >= COM10 use "target extended-remote \\.\COM10")  
@@ -23,8 +22,7 @@ Remote debugging using COM2
 
 ## Lubuntu:
 
-
-[gdb-multiarch](https://packages.ubuntu.com/focal/gdb-multiarch)  
+Starting [gdb-multiarch](https://packages.ubuntu.com/focal/gdb-multiarch)  
 ```
 gdb-multiarch
 (gdb) target extended-remote /dev/ttyACM0  
