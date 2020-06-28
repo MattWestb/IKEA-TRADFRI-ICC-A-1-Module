@@ -1,6 +1,6 @@
-# IKEA TRÅDFRI ICC-A-1 Modul.
+# IKEA TRÅDFRI ICC-A-1 Module.
 
-### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Modul.
+### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module.
 
 [s-hadinger](https://github.com/s-hadinger) have the EZSP upp and running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) with help of [mtx512](https://github.com/mtx512)
 our maker of bootoader and coordinator firmware.
@@ -70,7 +70,8 @@ From [DIY Stuff.nl](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module
 
 With  JLink: [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout).  
 With  Blue Pill as a BlackMagicProbe (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
-With ESP8266 as a BlackMagicProbe: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).
+With ESP8266 as a BlackMagicProbe: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
+(BMP: if problem connecting to the device or writing to fals add one around 100K restistor in serie with SWLK).  
 
 ### Firmware:
 
