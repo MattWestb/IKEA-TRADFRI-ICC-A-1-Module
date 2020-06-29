@@ -8,7 +8,7 @@ Version: 2.1.022
 Flash: LED1836G9.bin  
 User Data: LED1836G9_UD.bin  
 
-## Pinout:
+## Module Pinout:
 | EFR32 pins | Pad | Funtion |
 |-|-|-|
 | GND | 12 | GND |
