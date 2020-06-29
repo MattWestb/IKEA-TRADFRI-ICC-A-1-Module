@@ -40,7 +40,7 @@ Hocked up and dumped !!
 | PF3 | Flash enable (on ICC-A-1 / Pin 09 on ICC-1) |
 
 
-### Known module pins use:
+### Known module pins / pads use:
 
 | Pad | EFR32 pins | Standard use | E1524 | E1743 |  ICTC-G-1 | E1603 |
 |------------|-----------|-------|-------|-------|-------|-------|
@@ -70,7 +70,7 @@ From [FCC ICC-A-1 RF module User Manual](https://fccid.io/FHO-ICC-A-1/Users-Manu
 [<img src="ICCA1.png" alt="FCC IKEA TRÅDFRI ICC-A-1" width="512">](ICCA1.png)
 
 
-### Peripheral mapping
+### Peripheral mapping:
 From /RIOT-OS
 
 | Peripheral | Number  | Hardware        | Pins                              | Comments                                            |
