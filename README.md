@@ -19,7 +19,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 For more info: [Teardown ICC-A-1](teardowns/ICC-A-1/readme.md).
 
 
-### EZSP use :
+### For EZSP use :
 
 | Pad | EFR32 pins | Description |
 |------------|-----------|-------|
