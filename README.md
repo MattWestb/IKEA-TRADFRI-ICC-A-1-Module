@@ -21,8 +21,10 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 
 | Pad | EFR32 pins | Description |
 |------------|-----------|-------|
-| 04         | PC10      | TX |
-| 05         | PC11      | RX |
+| 02         | PA15      | TX * |
+| 03         | PA14      | RX * |
+| 04         | PC10      | TX * |
+| 05         | PC11      | RX * |
 | 06         | PF0       | SWCLK |
 | 07         | PF1       | SWDIO |
 | 08         | PF2       | SWO   |
@@ -30,6 +32,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 | 12         | GND       | GND |
 | 16         | PA0       | Force bootloader (LL) buttom | 
 
+1* Alternative test pins for RX and TX.
 
 ### Flashing:
 
@@ -40,12 +43,14 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 
 Dumped one new (never pared) LED1837R5 with BlackMagic-espidf.  
 
-Bootloader: First stage bootloader looks OK.  
-Seccund stage bootloader updated with mtx512 and can force bootloader boot and monitoring.
+Bootloader: First stage bootloader its OK. Also updated to latest version. 
+Seccund stage bootloader updated with mtx512 and can force bootloader boot and loading app.  
 
 [mtx512](https://github.com/mtx512) have compilles a inital [firmware set](https://github.com/mtx512/efr32/tree/master/icc-a-1).  
 
 Then having the new bootloader in place it its only booting in bootloader mode thrue pressing the LigthingLink button (if using a controll device)(PA0 low) and poweron and then upload the EZSP from the bootloader over serial. 
+
+Problem with NCP app loaded bit crashing. Can being that 6.7.6.x NCP its too large for the MG with 256K flash ore its problem with the port for RX and TX.
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
