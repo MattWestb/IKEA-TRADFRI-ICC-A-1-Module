@@ -88,9 +88,9 @@ Reg 3 = Ram (32K)
 ## Dumping to file:
 ```
 (gdb)  
-(gdb) dump memory XYZ17.bin 0x00000000 0x00040000 
-(gdb) dump memory XYZ18.bin 0x0fe10000 0x0fe12800  
-(gdb) dump memory XYZ19.bin 0x0fe00000 0x0fe00800  
+(gdb) dump memory XYZ17.bin 0x00000000 0x00040000   
+(gdb) dump memory XYZ18.bin 0x0fe00000 0x0fe00800  
+(gdb) dump memory XYZ19.bin 0x0fe10000 0x0fe12800  
 (gdb) dump memory XYZ20.bin 0x20000000 0x20008000  
 (gdb)  
  ```
