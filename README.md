@@ -50,7 +50,7 @@ Seccund stage bootloader updated with mtx512 and can force bootloader boot and l
 
 Then having the new bootloader in place it its only booting in bootloader mode thrue pressing the LigthingLink button (if using a controll device)(PA0 low) and poweron and then upload the EZSP from the bootloader over serial. 
 
-Problem with NCP app loaded bit crashing. Can being that 6.7.6.x NCP its too large for the MG with 256K flash ore its problem with the port for RX and TX.
+Problem with NCP app loaded but crashing. Can being that 6.7.6.x NCP its too large for the MG with 256K flash or its problem with the port for RX and TX.
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
