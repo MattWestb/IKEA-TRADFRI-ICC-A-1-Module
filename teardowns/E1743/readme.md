@@ -5,6 +5,10 @@ Hocked up and dumped !!
 [<img src="E1743.jpg" alt="Back of IKEA TRÅDFRI E1743" width="512">](E1743.jpg)
 
 ## Firmware:
+
+OTA image type:  
+Data string : IKEA of Sweden, TRADFRI on/off switch, 20190723, E1743  
+Version: 2.2.010  
 Flash: E1743_Flash.bin  
 User Data: E1743_UD.bin  
 
