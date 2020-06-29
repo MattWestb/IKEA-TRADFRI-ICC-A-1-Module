@@ -11,8 +11,8 @@ User Data: LED1837R5_UD.bin
 ## Module Pinout:
 | EFR32 pins | Pad | Funtion |
 |-|-|-|
-| GND | 12 | GND |
 | VDD | 11 | VCC |
+| GND | 12 | GND |
 | PB13 | 13 | PMW 1 |
 
 ## Data:
