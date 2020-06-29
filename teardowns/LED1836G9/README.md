@@ -11,8 +11,8 @@ User Data: LED1836G9_UD.bin
 ## Module Pinout:
 | EFR32 pins | Pad | Funtion |
 |-|-|-|
+| VDD | 11 | VCC |
 | GND | 12 | GND |
-| VDD | 12 | VCC |
 | PB13 | 13 | PMW 1 |
 
 ## Data:
