@@ -40,7 +40,7 @@ Hocked up and dumped !!
 | PF3 | Flash enable (on ICC-A-1 / Pin 09 on ICC-1) |
 
 
-### Known module pins
+### Known module pins use:
 
 | Pad | EFR32 pins | Standard use | E1524 | E1743 |  ICTC-G-1 | E1603 |
 |------------|-----------|-------|-------|-------|-------|-------|
@@ -64,7 +64,8 @@ Hocked up and dumped !!
 
 
 
-## Pinout:
+## FCC Pinout:
+From [FCC ICC-A-1 RF module User Manual](https://fccid.io/FHO-ICC-A-1/Users-Manual/User-Manual-3432941)  
 
 [<img src="ICCA1.png" alt="FCC IKEA TRÅDFRI ICC-A-1" width="512">](ICCA1.png)
 
