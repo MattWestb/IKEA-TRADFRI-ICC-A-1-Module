@@ -75,17 +75,17 @@ From /RIOT-OS
 | 03         | PB14      |  | Down |  |  |  |
 | 04         | PC10      |  | On/Off | On/Up |  |  |
 | 05         | PC11      |  | Right | LED |  |  |
-| 06         | PF0       | SWD Debug |  |  |  |  |
-| 07         | PF1       | SWD Debug |  |  |  |  |
-| 08         | PF2       | SWD Debug |  |  |  |  |
-| 09         | PF3       |  |  |  |  |  |  |
-| 10         | RESETn    | Reset | Reset | Reset | Reset |  |
+| 06         | PF0       | SWD Debug |  |  | TP2 |  |
+| 07         | PF1       | SWD Debug |  |  | TP1 |  |
+| 08         | PF2       | SWD Debug |  |  | TP3 |  |
+| 09         | PF3       |  |  |  | TP4 |  |
+| 10         | RESETn    | Reset | Reset | Reset | Reset TP5 |  |
 | 11         | VDD       |  3.3V | 3.3V | 3.3V | 3.3V | 3.3V |
 | 12         | GND       | GND | GND | GND | GND | GND |
 | 13         | PB13      | PMW 1 | LED |  |  |  |
 | 14         | PB12      | PMW 2 |  | Off/Down |  | On/Off |
-| 15         | PA1       | PMW 3 | Up |  | LLB | LED |
-| 16         | PA0       | PMW 4 | LLB | LLB | LED | LLB |
+| 15         | PA1       | PMW 3 | Up |  | LLB TP6 | LED |
+| 16         | PA0       | PMW 4 | LLB | LLB | LED TP7 | LLB |
 | 17         | PC11      |  |  |  |  |
 
 
