@@ -43,7 +43,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 
 Dumped one new (never pared) LED1837R5 with BlackMagic-espidf.  
 
-Bootloader: First stage bootloader its OK. Also updated to latest version. 
+Bootloader: First stage bootloader its OK. Also updated to latest version.  
 Seccund stage bootloader updated with mtx512 and can force bootloader boot and loading app.  
 
 [mtx512](https://github.com/mtx512) have compilles a inital [firmware set](https://github.com/mtx512/efr32/tree/master/icc-a-1).  
