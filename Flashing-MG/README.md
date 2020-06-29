@@ -88,6 +88,7 @@ Reg 3 = Ram (32K)
 ## Dumping to file:
 ```
 (gdb)  
+(gdb) dump memory XYZ17.bin 0x00000000 0x00040000 
 (gdb) dump memory XYZ18.bin 0x0fe10000 0x0fe12800  
 (gdb) dump memory XYZ19.bin 0x0fe00000 0x0fe00800  
 (gdb) dump memory XYZ20.bin 0x20000000 0x20008000  
@@ -101,6 +102,9 @@ Reg 3 = Ram (32K)
 Erase successful!  
 (gdb)  
 ```
+
+Now we have a SoC with empty flash.  
+
 After erase_mass you must writing a bootloader to the flash as elf file @0x0 for the first bootloader (or one dumped with both bootloder @0x0) and @0x800 for the main bottloader or one s37 file (s37 have all meta inside).  
 If not writing anny app @0x4000 or the app its not flaged OK next boot is stoping in the main bootloader.  
   
@@ -112,18 +116,21 @@ If not writing anny app @0x4000 or the app its not flaged OK next boot is stopin
 Coverting bin file to elf in a terminal.
 [arm-none-eabi-objcopy](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 ```
-arm-none-eabi-objcopy --input-target binary --output-target elf32-little XYZ18.bin XYZ18.elf  
+arm-none-eabi-objcopy --input-target binary --output-target elf32-little XYZ17.bin XYZ17.elf  
 ```
 
 ```
 (gdb)  
-(gdb) load XYZ18.elf 0x0 ([FILE] [OFFSET])  
-Loading section .data, size 0x40000 lma 0x0  
-Start address 0x0, load size 262144  
-Transfer rate: 24 KB/sec, 985 bytes/write.  
+(gdb) load XYZ17.elf 0x0 ([FILE] [OFFSET])  
+Loading section .data, size 0x40000 lma 0x0
+Start address 0x0, load size 262144
+Transfer rate: 15 KB/sec, 985 bytes/write. 
 (gdb)  
-  ```
-  
+ ```
+ 
+ Now we have writing back the compleete dumped flash to the SoC.  
+ 
+ 
 ### .s37 files:  
   ```
 (gdb)  
@@ -134,6 +141,8 @@ Start address 0x41c8, load size 197548
 Transfer rate: 23 KB/sec, 968 bytes/write.  
 (gdb)  
 ```
+
+Now we have updated a new pare of bootloader (first and main) on the SoC.  
 
 ## Bootloader app flashing:  
 
