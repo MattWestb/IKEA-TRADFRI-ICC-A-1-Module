@@ -14,9 +14,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 * 2 Mbit SPI NOR Flash: IS25LQ020B
 * Crystal: 38.4 MHz
 
-[FCC ICC-1 RF module User Manual](https://fccid.io/FHO-ICC-1/User-Manual/User-Manual-3055710)
-
-For more info: [Teardown ICC-A-1](teardowns/ICC-A-1/readme.md).
+#### For more info: [Teardown ICC-A-1](teardowns/ICC-A-1/readme.md).
 
 
 ### For EZSP use :
