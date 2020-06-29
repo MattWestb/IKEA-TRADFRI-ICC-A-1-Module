@@ -2,6 +2,9 @@
 
 Hocked up and dumped !!
 
+[<img src="ICC-A-1A.jpg" alt="IKEA TRÅDFRI ICC-A-1" width="512">](ICC-A-1A.jpg)
+
+
 ### Module Pinout:
 
 
