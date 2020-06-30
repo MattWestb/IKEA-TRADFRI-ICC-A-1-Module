@@ -173,6 +173,6 @@ Bootloader sending "C" evry secund and waiting for a xmodem upload.
 Serial upload complete  
 BL >   
 ```
-Then uploade its finish and CRC its OK you getting a message and can reboot your Mighty Gecko.  
+Then uploade its finish and if CRC its OK you getting a message and can reboot your Mighty Gecko.  
   
 
