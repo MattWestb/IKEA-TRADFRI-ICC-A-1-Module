@@ -45,8 +45,8 @@ Hocked up and dumped !!
 | Pad | EFR32 pins | Standard use | E1524 | E1743 |  ICTC-G-1 | E1603 |
 |------------|-----------|-------|-------|-------|-------|-------|
 | 01         | GND       | GND | GND |GND | GND |  |
-| 02         | PB15      |  | Left |  |  |  |
-| 03         | PB14      |  | Down |  |  |  |
+| 02         | PB15      | RX | Left | RX |  |  |
+| 03         | PB14      | TX | Down | TX |  |  |
 | 04         | PC10      |  | On/Off | On/Up |  |  |
 | 05         | PC11      |  | Right | LED |  |  |
 | 06         | PF0       | SWD Debug |  |  | TP2 |  |
