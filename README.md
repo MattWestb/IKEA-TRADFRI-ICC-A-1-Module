@@ -21,8 +21,8 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 
 | Pad | EFR32 pins | Description |
 |------------|-----------|-------|
-| 02         | PA15      | TX * |
-| 03         | PA14      | RX * |
+| 02         | PA15      | RX * |
+| 03         | PA14      | TX * |
 | 04         | PC10      | TX * |
 | 05         | PC11      | RX * |
 | 06         | PF0       | SWCLK |
