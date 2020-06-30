@@ -32,7 +32,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 | 12         | GND       | GND |
 | 16         | PA0       | Force bootloader (LL) buttom | 
 
-1* Alternative test pins for RX and TX.
+1* New pinout for matching the pads of E1743 is PA14 TX and PA15 RX.
 
 ### Flashing:
 
@@ -55,6 +55,7 @@ Less likly its that the 6.7.6.x NCP its to large for the MG with 256K flash but 
 More likly its problem with the UART port for RX and TX its conflicting with the external flash that using SPI.  
 Tecnical SPI its using the USART ports maped to the external pins for MISO and MOSI. The logick for HW to SW config its a large mess.
 
+Todo: New pinout for matching the pads of E1743 is PA14 TX and PA15 RX.
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
 
