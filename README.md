@@ -52,8 +52,8 @@ Then having the new bootloader in place it its only booting in bootloader mode t
 
 Problem with NCP app loaded but crashing:
 Less likly its that the 6.7.6.x NCP its to large for the MG with 256K flash but Ikeas GW have larger OTA file.  
-More likly its problem with the UART port for RX and TX its conflict with the external flash that using SPI.  
-Tecnical SPI its using the USART ports maped to the external pins for MISO and MOSI. But the logick its a mess.
+More likly its problem with the UART port for RX and TX its conflicting with the external flash that using SPI.  
+Tecnical SPI its using the USART ports maped to the external pins for MISO and MOSI. The logick for HW to SW config its a large mess.
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
