@@ -84,3 +84,8 @@ From /RIOT-OS
 | UART       | 0       | USART0          | RX: PB15, TX: PB14                | Default STDIO output                                |
 | LEUART     | 0       | LEUART0         | RX: PB15, TX: PB14                | Alternate to using UART                             |
 
+
+## More infos:
+[MicroPython on ICC-1](https://trmm.net/ikea)  
+[Hacking the IKEA TRÅDFRI](https://github.com/basilfx/TRADFRI-Hacking)  
+[zw_TRADFRI-Hacking](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527)  
