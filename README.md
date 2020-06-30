@@ -50,7 +50,10 @@ Seccund stage bootloader updated with mtx512 and can force bootloader boot and l
 
 Then having the new bootloader in place it its only booting in bootloader mode thrue pressing the LigthingLink button (if using a controll device)(PA0 low) and poweron and then upload the EZSP from the bootloader over serial. 
 
-Problem with NCP app loaded but crashing. Can being that 6.7.6.x NCP its too large for the MG with 256K flash or its problem with the port for RX and TX.
+Problem with NCP app loaded but crashing:
+Less likly its that the 6.7.6.x NCP its to large for the MG with 256K flash but Ikeas GW have larger OTA file.  
+More likly its problem with the UART port for RX and TX its conflict with the external flash that using SPI.  
+Tecnical SPI its using the USART ports maped to the external pins for MISO and MOSI. But the logick its a mess.
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
