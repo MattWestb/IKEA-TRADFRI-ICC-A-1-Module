@@ -4,7 +4,7 @@ Then not having any JLink: €ß$ [Basilfix](https://github.com/basilfx/TRADFRI-
 With BlackMagic Probe (BMP) or 
 with  Blue Pill as a BMP (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
 With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
-(BMP: if problem connecting to the device or writing to fails add one around 100 Ohm restistor in serie with SWLK). 
+(BMP: if having problem connecting to the target or writing to fails add ~130 Ohm restistor in serie with SWD/Jtag pins). 
 
 ## Wundows:
 Open a cmd or PowerShell.
@@ -131,7 +131,7 @@ Transfer rate: 15 KB/sec, 985 bytes/write.
  Now we have writing back the compleete dumped flash to the SoC.  
  
  
-### .s37 files:  
+### s37 files:  
   ```
 (gdb)  
 (gdb) load bootloader-uart-xmodem_storage.s37  
