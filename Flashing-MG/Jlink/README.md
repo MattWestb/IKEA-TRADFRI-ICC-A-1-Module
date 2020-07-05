@@ -3,7 +3,7 @@
 Download GCY JLINK-ARM-OB-master.zip and UnZip it in your working folder.  
 Install JLink Software fom the zipfile.  
 Find JLinkARM.dll(W32) / JLink_x64.dll(W64) in your system and copy it to your working folder.  
-Use [this](https://www.programmersought.com/article/93352322668/) guid for patching the firmware to the same version as the jlink software (DLL file).  
+Use [this](https://www.programmersought.com/article/93352322668/) guid for patching the firmware (BIN File) to the same version as the jlink software (DLL file).  
 
 ### Burning the bin file to your STM32F103:  
 Use MINGW32 under windows for flashing your STM32F103.  
@@ -12,7 +12,7 @@ Use the python scripts from [BMP](https://github.com/blacksphere/blackmagic/tree
 Connecting [guid](https://medium.com/@paramaggarwal/converting-an-stm32f103-board-to-a-black-magic-probe-c013cf2cc38c).  
 Move the BOOT0 jumper to 1 on STM32F103 then connecting it with the serial adapter.  
 
-In MINGW32:  
+In MINGW32:  (J-Link-OB-XXXX.bin = Your patched bin file)
 ``` $ scripts/bootprog.py  -d com9 J-Link-OB-XXXX.bin  
 STM32 SystemMemory Production Programmer -- version 1.1  
 Copyright (C) 2011  Black Sphere Technologies  
