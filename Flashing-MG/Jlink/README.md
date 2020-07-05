@@ -36,7 +36,8 @@ You suld have one J-Link drive in your Device Manager under Universal Serial Bus
 
 Staring JLink.exe in one cmd.  
   
-``` PS C:\msys32\home\Mattias\BMP_FW\swlink> & 'C:\Program Files (x86)\SEGGER\JLink_V644f\JLink.exe'  
+``` 
+PS C:\> & 'C:\Program Files (x86)\SEGGER\JLink_V644f\JLink.exe' 
 SEGGER J-Link Commander V6.44f (Compiled Apr 12 2019 17:17:37)  
 DLL version V6.44f, compiled Apr 12 2019 17:17:02  
   
