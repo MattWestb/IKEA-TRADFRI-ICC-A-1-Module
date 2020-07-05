@@ -6,7 +6,7 @@ with  Blue Pill as a BMP (STM32F103 board as SWD / jtag probe): [ZW](https://git
 With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
 (BMP: if having problem connecting to the target or writing to target fails add ~130 Ohm restistor in serie with SWD/Jtag pins). 
 
-## Wundows:
+## Windows:
 Open a cmd or PowerShell.
 Move to a directory with wrigth promission (Your Documents).
 
