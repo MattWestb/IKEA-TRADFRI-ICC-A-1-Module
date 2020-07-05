@@ -73,7 +73,7 @@ Install SimplicityCommande from Silabs homepage.
 Copy the JLinkARM.dll(W32) / JLink_x64.dll(W64) from your working folder to Simplicity Commander folder.  
 Starting Simplicity Commander.  
   
-  [<img src="E1743.jpg" alt="Back of IKEA TRÅDFRI E1743" width="512">](E1743.jpg)
+[<img src="SC01.PNG" alt="SimplicityCommander" width="512">](E1743.jpg)
     
  
 The trick its that having the same version in the J-Link probe and the J-Link.dll or J-Link want to updating the firmware. If letting J-Link updating the firmware its crashing the STM32F103.  
