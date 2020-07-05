@@ -72,6 +72,9 @@ If all its OK you can manual read the internal flash and saving it.
 Install SimplicityCommande from Silabs homepage.  
 Copy the JLinkARM.dll(W32) / JLink_x64.dll(W64) from your working folder to Simplicity Commander folder.  
 Starting Simplicity Commander.  
+  
+  [<img src="E1743.jpg" alt="Back of IKEA TRÅDFRI E1743" width="512">](E1743.jpg)
+    
  
 The trick its that having the same version in the J-Link probe and the J-Link.dll or J-Link want to updating the firmware. If letting J-Link updating the firmware its crashing the STM32F103.  
 Then do a new firmware with the new JLinkARM.dll and flashing it on the STM32F103.     
