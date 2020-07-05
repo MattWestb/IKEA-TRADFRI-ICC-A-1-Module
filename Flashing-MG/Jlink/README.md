@@ -13,7 +13,7 @@ Connecting [guid](https://medium.com/@paramaggarwal/converting-an-stm32f103-boar
 Move the BOOT0 jumper to 1 on STM32F103 then connecting it with the serial adapter.  
 
 In MINGW32:  
- $ scripts/bootprog.py  -d com9 J-Link-OB-XXXX.bin  
+``` $ scripts/bootprog.py  -d com9 J-Link-OB-XXXX.bin  
 STM32 SystemMemory Production Programmer -- version 1.1  
 Copyright (C) 2011  Black Sphere Technologies  
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>  
@@ -26,14 +26,14 @@ Programming address 0x08015B00..0x08015BFA...
 Enabling device protection...  
 All operations completed.  
   
-  
+```  
 Move the BOOT0 jumper to 0 on STM32F103 and disconnect all serial cabled and plug in USB.  
 You suld have one J-Link drive in your Device Manager under Universal Serial Buss controllers.  
   
 
 Staring JLink.exe in one cmd.  
   
-PS C:\msys32\home\Mattias\BMP_FW\swlink> & 'C:\Program Files (x86)\SEGGER\JLink_V644f\JLink.exe'  
+``` PS C:\msys32\home\Mattias\BMP_FW\swlink> & 'C:\Program Files (x86)\SEGGER\JLink_V644f\JLink.exe'  
 SEGGER J-Link Commander V6.44f (Compiled Apr 12 2019 17:17:37)  
 DLL version V6.44f, compiled Apr 12 2019 17:17:02  
   
@@ -46,7 +46,7 @@ VTref=3.300V
   
 Type "connect" to establish a target connection, '?' for help  
 J-Link>  
-  
+```  
 All are without any SN, so after flash with probe, just run jlink.exe and make "exec SetSN=xxxxxxxx"  
 
 Close JLink.exe and starting it agen and you have a SN.  
