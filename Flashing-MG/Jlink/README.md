@@ -1,9 +1,9 @@
 # JLINK-ARM-OB
    
-Download GCY JLINK-ARM-OB-master.zip UnZip it in your working folder.  
+Download GCY JLINK-ARM-OB-master.zip and UnZip it in your working folder.  
 Install JLink Software fom the zipfile.  
 Find JLinkARM.dll(W32) / JLink_x64.dll(W64) in your system and copy it to your working folder.  
-Use [this](https://www.programmersought.com/article/93352322668/) guid for patching the firmware to the same version as the jlink software (DLL fie).  
+Use [this](https://www.programmersought.com/article/93352322668/) guid for patching the firmware to the same version as the jlink software (DLL file).  
 
 ### Burning the bin file to your STM32F103:  
 Use MINGW32 under windows for flashing your STM32F103.  
@@ -25,9 +25,8 @@ Erasing target device...
 Programming address 0x08015B00..0x08015BFA...  
 Enabling device protection...  
 All operations completed.  
-  
 ```  
-Move the BOOT0 jumper to 0 on STM32F103 and disconnect all serial cabled and plug in USB.  
+Move the BOOT0 jumper to 0 on STM32F103 and disconnect all serial cables and plug in USB.  
 You suld have one J-Link drive in your Device Manager under Universal Serial Buss controllers.  
   
 
@@ -63,6 +62,8 @@ If SWD (+ optional SWO) support is required on the target hardware to be designe
 • #RESET (PA1 / Pin 11)  
 If SWO support is not required (e.g. when the target CPU is Cortex-M0/M0+ based, which does not provide SWO support), the SWO signal can be left open.  
   
+  
+If having problem with connecting add one or more 100R in serie with SWCKL (5V host and 3.3V Target, the reference design have 100R on all SWD pins).    
   
 Starting J-Flash.  
 Create one new project with the rigth MCU.  
