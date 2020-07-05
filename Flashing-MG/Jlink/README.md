@@ -8,12 +8,12 @@ Use [this](https://www.programmersought.com/article/93352322668/) guid for patch
 ### Burning the bin file to your STM32F103:  
 Use MINGW32 under windows for flashing your STM32F103.  
 Need installing some more python modules (pySerial, PyUSB). 
-Use the python scripts from [BMP](https://github.com/blacksphere/blackmagic/tree/master/scripts).  
+Use the python scripts from [BMP](https://github.com/blacksphere/blackmagic/tree/master/scripts).   
 Connecting [guid](https://medium.com/@paramaggarwal/converting-an-stm32f103-board-to-a-black-magic-probe-c013cf2cc38c).  
 Move the BOOT0 jumper to 1 on STM32F103 then connecting it with the serial adapter.  
 
 In MINGW32:  
-$ scripts/bootprog.py  -d com9 J-Link-OB-XXXX.bin  
+ $ scripts/bootprog.py  -d com9 J-Link-OB-XXXX.bin  
 STM32 SystemMemory Production Programmer -- version 1.1  
 Copyright (C) 2011  Black Sphere Technologies  
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>  
@@ -47,7 +47,7 @@ VTref=3.300V
 Type "connect" to establish a target connection, '?' for help  
 J-Link>  
   
-All are without any SN, so after flash with Sam-Ba, just run jlink.exe and make "exec SetSN=xxxxxxxx"  
+All are without any SN, so after flash with probe, just run jlink.exe and make "exec SetSN=xxxxxxxx"  
 
 Close JLink.exe and starting it agen and you have a SN.  
 
