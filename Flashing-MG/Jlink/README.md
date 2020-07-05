@@ -77,6 +77,9 @@ Starting Simplicity Commander.
 [<img src="SC01.PNG" alt="SimplicityCommander" width="512">](E1743.jpg)
     
  
+## WARNING !!
+Its very easy bricking MGs with Simplicity Commander only then writing new bootloader.  
+
 The trick its that having the same version in the J-Link probe and the J-Link.dll or J-Link want to updating the firmware. If letting J-Link updating the firmware its crashing the STM32F103.  
 Then do a new firmware with the new JLinkARM.dll and flashing it on the STM32F103.     
 
