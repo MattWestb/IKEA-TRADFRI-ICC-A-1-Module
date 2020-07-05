@@ -9,8 +9,7 @@ Use [this](https://www.programmersought.com/article/93352322668/) guid for patch
 Use MINGW32 under windows for flashing your STM32F103.  
 If needed installing missing python modules (pySerial, PyUSB).   
 Use the python scripts from [BMP](https://github.com/blacksphere/blackmagic/tree/master/scripts).   
-Connecting [guid](https://medium.com/@paramaggarwal/converting-an-stm32f103-board-to-a-black-magic-probe-c013cf2cc38c).   
-Move the BOOT0 jumper to 1 on STM32F103 then connecting it with the serial adapter (VCC GND RX TX).  
+Move the BOOT0 jumper to 1 on STM32F103 then [connecting](https://medium.com/@paramaggarwal/converting-an-stm32f103-board-to-a-black-magic-probe-c013cf2cc38c) it with the serial adapter (VCC GND RX TX).  
 
 In MINGW32:  ("J-Link-OB-XXXX.bin" = Your patched bin file)
 
