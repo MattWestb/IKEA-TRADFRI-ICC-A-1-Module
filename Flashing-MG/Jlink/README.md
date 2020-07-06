@@ -44,7 +44,7 @@ DLL version V6.44f, compiled Apr 12 2019 17:17:02
 Connecting to J-Link via USB...O.K.  
 Firmware: J-Link OB-STM32F103 V1 compiled Jan  7 2019 14:10:25  
 Hardware version: V1.00  
-S/N: 00000001-  
+S/N: -1  
 VTref=3.300V  
   
   
