@@ -72,10 +72,10 @@ If having problem with connecting add one or more 100R in serie with SWCKL (5V h
   
 Starting J-Flash.  
 Create one new project with the rigth MCU.  
-Target Connect.  
+Then "Target" "Connect".  
 If all its OK you is connected and can manual read the internal flash and saving it. 
   
-Install SimplicityCommande from Silabs homepage.  
+Install Simplicity Commande from Silabs homepage.  
 Copy the JLinkARM.dll(W32) / JLink_x64.dll(W64) from your working folder to Simplicity Commander folder.  
 Starting Simplicity Commander.  
   
