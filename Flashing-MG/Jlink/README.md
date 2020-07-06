@@ -51,9 +51,9 @@ VTref=3.300V
 Type "connect" to establish a target connection, '?' for help  
 J-Link>  
 ```  
- All are clean without any SN, just run "exec SetSN=xxxxxxxx" then "xxxxxxxx" its your serial number.  
+ All are clean without any SN, just run ```exec SetSN=xxxxxxxx``` then "xxxxxxxx" its your serial number.  
 
-Close JLink.exe and starting it agen and you have a SN.  
+Reboot the J-Link: ```usb``` and now you have a SN.
 
 
 ## Connecting your J-Link OB.  
