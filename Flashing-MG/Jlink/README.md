@@ -68,12 +68,12 @@ If SWD (+ optional SWO) support is required on the target hardware to be designe
 If SWO support is not required (e.g. when the target CPU is Cortex-M0/M0+ based, which does not provide SWO support), the SWO signal can be left open.  
   
   
-If having problem with connecting add one or more 100R in serie with SWCKL (5V host and 3.3V Target, the reference design have 100R on all SWD pins).    
+If having problem with connecting add one or more 100R in serie with SWCKL (5V host and 3.3V target, the reference design have 100R on all SWD pins).    
   
 Starting J-Flash.  
 Create one new project with the rigth MCU.  
 Target Connect.  
-If all its OK you can manual read the internal flash and saving it. 
+If all its OK you is connected and can manual read the internal flash and saving it. 
   
 Install SimplicityCommande from Silabs homepage.  
 Copy the JLinkARM.dll(W32) / JLink_x64.dll(W64) from your working folder to Simplicity Commander folder.  
