@@ -1,5 +1,7 @@
 # JLINK-ARM-OB
    
+### Using an STM32F103 board (Blue Pill) as J-Link probe.  
+   
 Download GCY JLINK-ARM-OB-master.zip and UnZip it in your working folder.  
 Install JLink Software fom the zipfile.  
 Find JLinkARM.dll(W32) / JLink_x64.dll(W64) in your system and copy it to your working folder.  
@@ -75,7 +77,7 @@ Create one new project with the rigth MCU.
 Then "Target" "Connect".  
 If all its OK you is connected and can manual read the internal flash and saving it. 
   
-Install Simplicity Commande from Silabs homepage.  
+Install Simplicity Commander from Silabs homepage.  
 Copy the JLinkARM.dll(W32) / JLink_x64.dll(W64) from your working folder to Simplicity Commander folder.  
 Starting Simplicity Commander.  
   
@@ -84,8 +86,9 @@ Starting Simplicity Commander.
  
 ## WARNING !!
 Its very easy bricking MGs with Simplicity Commander only then writing new bootloader!!  
- 
- Dont let J-Link updating your probe. Its bricking it !!   
+Have seing that J-Link / Simplicity Commander have writing the bootloader (S37 file) @01000 then it sud being written @0x0 and leaving the first 0x1000 blank.   
+After boot to bootloader and flashing app (GBL file) it also being written with wrong offsett and can being a hard brick (Lock bits and hardware corupted).  
+Dont let J-Link updating your probe. Its bricking it !!   
 The trick its that having the same version in the J-Link probe and the J-Link.dll or J-Link want to updating the firmware. If letting J-Link updating the firmware you have a bricked probe. Then do a new firmware with the new JLinkARM.dll and flashing it on the STM32F103.     
 
 
