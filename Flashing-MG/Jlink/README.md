@@ -86,7 +86,7 @@ Starting Simplicity Commander.
  
 ## WARNING !!
 Its very easy bricking MGs with Simplicity Commander only then writing new bootloader!!  
-Have seing that J-Link / Simplicity Commander have writing the bootloader (S37 file) @01000 then it sud being written @0x0 and leaving the first 0x1000 blank.   
+Have seing that J-Link / Simplicity Commander have writing the bootloader (S37 file) @0x1000 then it sud being written @0x0 and leaving the first 0x1000 blank.   
 After boot to bootloader and flashing app (GBL file) it also being written with wrong offsett and can being a hard brick (Lock bits and hardware corupted).  
 Dont let J-Link updating your probe. Its bricking it !!   
 The trick its that having the same version in the J-Link probe and the J-Link.dll or J-Link want to updating the firmware. If letting J-Link updating the firmware you have a bricked probe. Then do a new firmware with the new JLinkARM.dll and flashing it on the STM32F103.     
