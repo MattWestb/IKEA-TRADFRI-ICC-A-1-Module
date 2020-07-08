@@ -81,7 +81,7 @@ Num Enb Low Addr   High Addr  Attrs
 
 Reg 0 = Flash (256K)  
 Reg 1 = Userdata (2K)  
-Reg 2 = Lockbits (10K)  
+Reg 2 = Bootloader (10K)  
 Reg 3 = Ram (32K)  
 
 
