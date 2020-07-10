@@ -144,9 +144,9 @@ Transfer rate: 11 KB/sec, 890 bytes/write.
 
 Now we have updated our gecko witha new first main bootloader.  
 
-## Bootloader app flashing:  
+## App flashing:  
 
-Apps can being flashed as elf @0x04000 or s37 files with GDB.
+Apps can being flashed as elf @0x04000 or s37 files with GDB.  
 It can also being flashed from the main bootloader in gbl file format.  
 If trigging bootloder pin on boot you see this in the terminal:  
   ```
