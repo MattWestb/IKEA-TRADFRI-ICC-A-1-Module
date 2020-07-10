@@ -7,11 +7,10 @@ With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmag
 (BMP: if having problem connecting to the target or writing to target fails add ~130 Ohm restistor in serie with SWD/Jtag pins). 
 
 ## Windows:
-Open a cmd or PowerShell.
-Move to a directory with wrigth promission (Your Documents).
-
-Starting [arm-none-eabi-gdb](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads).  
-In GDB: target extended-remote COM2 (For ports >= COM10 use "target extended-remote \\.\COM10")  
+Open a cmd or PowerShell.  
+Move to a directory with wrigth promission (Your Documents)  
+Starting [arm-none-eabi-gdb](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads).   
+In GDB shell: target extended-remote COM2 (For ports >= COM10 use "target extended-remote \\.\COM10")  
 
 ```
 arm-none-eabi-gdb
