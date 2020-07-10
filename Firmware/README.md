@@ -7,7 +7,7 @@ So first we need to flash one new bootloader for loading the NCP app in the flas
   
 Flashing new bootloader to the gecko must being done with J-tag or SWD and using s37 files.    
   
-Its normaly OK flashing without erasing the internal flash then its possible using the icc-a-1-bootloader.s37 that contain only the secund stage (Main bootloader).  
+Its normaly OK flashing without erasing the internal flash then its use the icc-a-1-bootloader.s37 that contain only the secund stage (Main bootloader).  
 If erasing the internal flash you must flashing the icc-a-1-bootloader-combined.s37 that contains both the first stage and secund stage (Main bootloader) or your gecko dont boot at all or making cracy GECKO things !  
 I have booting to bootloader after erasing internal and flashing botloader and reading it back and the first 0x0800 wos only ff = empty,  and from the bootloader flashing one app and it wos written it ofset and coruppted the perfials and lockbits aria = Hard brick !!!  
 
