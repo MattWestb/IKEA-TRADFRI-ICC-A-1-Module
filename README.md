@@ -21,10 +21,8 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 
 | Pad | EFR32 pins | Description |
 |------------|-----------|-------|
-| 02         | PB15      | RX * |
-| 03         | PB14      | TX * |
-| 04         | PC10      | TX * |
-| 05         | PC11      | RX * |
+| 02         | PB15      | RX |
+| 03         | PB14      | TX |
 | 06         | PF0       | SWCLK |
 | 07         | PF1       | SWDIO |
 | 08         | PF2       | SWO   |
@@ -32,7 +30,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 | 12         | GND       | GND |
 | 16         | PA0       | Force bootloader (LL) buttom | 
 
-1* New pinout for matching the pads of E1743 is PA14 TX and PA15 RX.
+RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot in bootloadre mode.
 
 ### Flashing:
 
