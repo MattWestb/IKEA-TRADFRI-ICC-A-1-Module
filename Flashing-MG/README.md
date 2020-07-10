@@ -85,7 +85,7 @@ Reg 2 = Bootloader (10K) (Factory bootloader ??)
 Reg 3 = Ram (32K)  
 
 
-## Dumping to file:
+## Dumping flash / memory to file:
 ```
 (gdb)  
 (gdb) dump memory XYZ17.bin 0x00000000 0x00040000   
@@ -95,7 +95,7 @@ Reg 3 = Ram (32K)
 (gdb)  
  ```
 
-## Erase flash:  
+## Erase internal flash:  
 ```
 (gdb)  
 (gdb) mon erase_mass  
@@ -109,7 +109,7 @@ After erase_mass you must writing a bootloader to the flash as elf file @0x0 or 
 If not writing anny app @0x4000 or app image upload fails, the app isn’t valid and next boot is stoping in the main bootloader.  
   
   
-## Write to flash: 
+## Write to internal flash: 
 
 ### Bin files: 
 
