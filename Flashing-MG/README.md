@@ -118,10 +118,10 @@ Coverting bin file to elf in a terminal.
 ```
 arm-none-eabi-objcopy --input-target binary --output-target elf32-little XYZ17.bin XYZ17.elf  
 ```
-
+Then flashing with GDB: load ([FILE] [OFFSET])  
 ```
 (gdb)  
-(gdb) load XYZ17.elf 0x0 ([FILE] [OFFSET])  
+(gdb) load XYZ17.elf 0x0    
 Loading section .data, size 0x40000 lma 0x0
 Start address 0x0, load size 262144
 Transfer rate: 15 KB/sec, 985 bytes/write. 
