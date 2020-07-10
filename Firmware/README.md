@@ -35,5 +35,5 @@ Press CTRL-A Z for help on special keys
 
 And you have a very happy Mighty Gecko !!!
 
-### Big  thanks to : mx512, grobasoz and jnicolson for helping putting working firmware together.  
+### Big  thanks to : [mx512](https://github.com/mtx512), [grobasoz](https://github.com/grobasoz) and [jnicolson](https://github.com/jnicolson) for helping putting working firmware together.  
 
