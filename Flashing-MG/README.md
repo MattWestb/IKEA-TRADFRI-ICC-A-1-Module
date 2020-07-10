@@ -6,7 +6,7 @@ with  Blue Pill as a BMP (STM32F103 board as SWD / jtag probe): [ZW](https://git
 With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
 (BMP: if having problem connecting to the target or writing to target fails add ~130 Ohm restistor in serie with SWD/Jtag pins). 
 
-## Windows:
+## Connecting the probe in Windows:
 Open a cmd or PowerShell.  
 Move to a directory with wrigth promission (Your Documents)  
 Starting [arm-none-eabi-gdb](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads).   
@@ -21,7 +21,7 @@ Remote debugging using COM2
 (gdb)  
 ```
 
-## Lubuntu:
+## Connecting the probe in Lubuntu:
 
 Starting [gdb-multiarch](https://packages.ubuntu.com/focal/gdb-multiarch)  
 In GDB shell: target extended-remote "Your TTY dev"  
@@ -34,7 +34,7 @@ Remote debugging using /dev/ttyACM0
 (gdb)  
 ```
 
-### Windows / Lubuntu with [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf):  
+### Connecting the [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf) probe in Windows / Lubuntu:  
 In GDB shell: target extended-remote "Your target ip:2022"
 ```
   
@@ -44,7 +44,7 @@ Remote debugging using 192.168.4.1:2022
 (gdb)  
 ```
 
-## Conecting Mighty Gecko:  
+## Conecting the probe with our Mighty Gecko:  
 Scan for SWD targets. Attatch target. Show info of your Gecko. 
 ```
    
