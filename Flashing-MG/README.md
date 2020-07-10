@@ -105,7 +105,7 @@ Erase successful!
 
 Now we have a SoC with empty flash.  
 
-After erase_mass you must writing a bootloader to the flash as elf file @0x0 for the first bootloader (or one dumped with both bootloder @0x0) and @0x800 for the main bottloader or one s37 file with both bootloader (s37 have all meta inside).  
+After erase_mass you must writing a bootloader to the flash as elf file @0x0 or s37 file for the first bootloader (or one dumped with both bootloder @0x0) and @0x800 for the main bottloader or one s37 file with both bootloader (s37 have all meta inside).  
 If not writing anny app @0x4000 or app image upload fails, the app isn’t valid and next boot is stoping in the main bootloader.  
   
   
