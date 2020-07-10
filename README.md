@@ -40,7 +40,7 @@ RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot
 
 ### Firmware:
 
-Dumped LED1837R5, LED1836G9 and E1743 with BlackMagic-espidf.  
+Dumped LED1837R5, LED1836G9 and E1743 with BlackMagic-espidf. Look in the [teardowns files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/teardowns).   
 
 Bootloader: First stage bootloader its OK. Also possible update to latest version.  
 Secund stage bootloader updated to standalone bootloader and can force bootloader boot and loading app.  
@@ -56,7 +56,7 @@ Having one 3rd NCP thats its not possible installing thrue bootloader but looks 
 Problem with NCP app loaded but crashing:
 Its a very hard one then its not possible connecting with SWD, must reboot in bootloader mode then SWD its working.  
 
-For more info of current NCP[firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
+For more info of current NCP [firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
