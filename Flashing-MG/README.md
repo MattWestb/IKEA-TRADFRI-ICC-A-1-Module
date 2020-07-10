@@ -45,6 +45,7 @@ Remote debugging using 192.168.4.1:2022
 ```
 
 ## Conecting Mighty Gecko:  
+Scan for SWD targets. Attatch target. Show info of your Gecko. 
 ```
    
 (gdb) mon sw  
@@ -105,10 +106,10 @@ Erase successful!
 (gdb)  
 ```
 
-Now we have a SoC with empty flash.  
+Now we have a SoC with empty internal flash.  
 
 After erase_mass you must writing a bootloader to the flash as elf file @0x0 or s37 file for the first bootloader (or one dumped with both bootloder @0x0) and @0x800 for the main bottloader or one s37 file with both bootloader (s37 have all meta inside).  
-If not writing anny app @0x4000 or app image upload fails, the app isn’t valid and next boot is stoping in the main bootloader.  
+If not writing anny app @0x4000 or app image upload fails, the app isn’t valid (wrong CRC) and next boot is stoping in the main bootloader.  
   
   
 ## Write to internal flash: 
@@ -130,7 +131,7 @@ Transfer rate: 15 KB/sec, 985 bytes/write.
 (gdb)  
  ```
  
- Now we have writing back the compleete dumped flash to the SoC.  
+ Now we have writing back the compleete dumped internal flash to the SoC.  
  
  
 ### s37 files:  
