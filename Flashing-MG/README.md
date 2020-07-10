@@ -14,7 +14,7 @@ In GDB shell: target extended-remote COM2 (For ports >= COM10 use "target extend
 
 ```
 arm-none-eabi-gdb
-(gdb)  
+     
 (gdb) target extended-remote COM2  
 Remote debugging using COM2  
 ...........  
@@ -26,7 +26,7 @@ Remote debugging using COM2
 Starting [gdb-multiarch](https://packages.ubuntu.com/focal/gdb-multiarch)  
 ```
 gdb-multiarch
-(gdb)  
+    
 (gdb) target extended-remote /dev/ttyACM0  
 Remote debugging using /dev/ttyACM0  
 ...........  
@@ -35,7 +35,7 @@ Remote debugging using /dev/ttyACM0
 
 ### Windows / Lubuntu with [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf):  
 ```
-(gdb)  
+  
 (gdb) target extended-remote 192.168.4.1:2022  
 Remote debugging using 192.168.4.1:2022  
 ...........  
@@ -44,7 +44,7 @@ Remote debugging using 192.168.4.1:2022
 
 ## Conecting Mighty Gecko:  
 ```
-(gdb)  
+   
 (gdb) mon sw  
 Available Targets:  
 No. Att Driver  
@@ -68,7 +68,7 @@ Radio si0
 
 ## Mem regions:
 ```
-(gdb)  
+  
 (gdb) info mem  
 Using memory regions provided by the target.  
 Num Enb Low Addr   High Addr  Attrs  
@@ -87,7 +87,7 @@ Reg 3 = Ram (32K)
 
 ## Dumping internal flash / memory to file:
 ```
-(gdb)  
+   
 (gdb) dump memory XYZ17.bin 0x00000000 0x00040000   
 (gdb) dump memory XYZ18.bin 0x0fe00000 0x0fe00800  
 (gdb) dump memory XYZ19.bin 0x0fe10000 0x0fe12800  
@@ -97,7 +97,7 @@ Reg 3 = Ram (32K)
 
 ## Erase internal flash:  
 ```
-(gdb)  
+  
 (gdb) mon erase_mass  
 Erase successful!  
 (gdb)  
@@ -120,7 +120,7 @@ arm-none-eabi-objcopy --input-target binary --output-target elf32-little XYZ17.b
 ```
 Then flashing with GDB: load [FILE] [OFFSET]  
 ```
-(gdb)  
+  
 (gdb) load XYZ17.elf 0x0    
 Loading section .data, size 0x40000 lma 0x0
 Start address 0x0, load size 262144
@@ -133,7 +133,7 @@ Transfer rate: 15 KB/sec, 985 bytes/write.
  
 ### s37 files:  
   ```
-(gdb)  
+    
 (gdb) load icc-a-1-bootloader-combined.s37
 Loading section .sec1, size 0x59c lma 0x0
 Loading section .sec2, size 0x3210 lma 0x800
