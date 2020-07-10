@@ -146,7 +146,8 @@ Now we have updated our gecko witha new first main bootloader.
 
 ## Bootloader app flashing:  
 
-Apps @0x4000 can also being flashed from the main bootloader in elf file format.  
+Apps can being flashed as elf @0x04000 or s37 files with GDB.
+It can also being flashed from the main bootloader in gbl file format.  
 If trigging bootloder pin on boot you see this in the terminal:  
   ```
 Welcome to minicom 2.7.1                                                               
