@@ -53,11 +53,15 @@ Target voltage: 2984mV
 Available Targets:
 No. Att Driver
  1      EFR32MG1P 132 F256 Mighty Gecko M3/M4
+(gdb) 
+  
+  
 (gdb) att 1
 Attaching to Remote target
 warning: No executable has been specified and target does not support
 determining executable automatically.  Try using the "file" command.
 0x0000234a in ?? ()
+(gdb) 
   
   
 (gdb) mon efm_info  
