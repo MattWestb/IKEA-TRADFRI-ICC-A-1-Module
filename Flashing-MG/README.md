@@ -118,7 +118,7 @@ Coverting bin file to elf in a terminal.
 ```
 arm-none-eabi-objcopy --input-target binary --output-target elf32-little XYZ17.bin XYZ17.elf  
 ```
-Then flashing with GDB: load ([FILE] [OFFSET])  
+Then flashing with GDB: load [FILE] [OFFSET]  
 ```
 (gdb)  
 (gdb) load XYZ17.elf 0x0    
