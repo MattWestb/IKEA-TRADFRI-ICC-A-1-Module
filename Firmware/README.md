@@ -10,7 +10,7 @@ I have booting to bootloader after erasing internal and flashing botloader and r
 
 ### Gecko NCP:
 NCP files can being flashed from main bootloader with gbl files or with  J-tag / SWD with s37 files.  
-My current gbl file its not accsepted bye the bootloader but flashed over SWD works OK.  
+My current NCP gbl file its not accsepted bye the bootloader but the s37 version flashed over SWD works OK.  
 
 
 ### Big  thanks to : mx512, grobasoz and jnicolson for helping putting working firmware together.  
