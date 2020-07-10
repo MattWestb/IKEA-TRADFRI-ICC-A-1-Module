@@ -85,7 +85,7 @@ Reg 2 = Bootloader (10K) (Factory bootloader ??)
 Reg 3 = Ram (32K)  
 
 
-## Dumping flash / memory to file:
+## Dumping internal flash / memory to file:
 ```
 (gdb)  
 (gdb) dump memory XYZ17.bin 0x00000000 0x00040000   
