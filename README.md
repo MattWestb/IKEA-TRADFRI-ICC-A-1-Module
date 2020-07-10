@@ -27,7 +27,7 @@ If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/ar
 | 07         | PF1       | SWDIO |
 | 08         | PF2       | SWO   |
 | 10         | RESETn    | 3Target reset | 
-| 11         | VCC       | 3.3V | 
+| 11         | VDD       | 3.3V | 
 | 12         | GND       | GND |
 | 16         | PA0       | Force bootloader (LL) buttom | 
 
