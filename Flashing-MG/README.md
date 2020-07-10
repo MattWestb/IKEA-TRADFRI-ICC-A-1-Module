@@ -1,6 +1,6 @@
 # Flashing the ICC-1 Module  
   
-Then not having any JLink: €ß$ as [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout), i insted using a ESP8266 or SMT32 as SWD / jtag probe.  
+Then i not having any JLink: €ß$ as [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout), so insted i using a ESP8266 or SMT32 as SWD / jtag probe.  
 With BlackMagic Probe (BMP) or 
 with  Blue Pill as a BMP (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
 With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
