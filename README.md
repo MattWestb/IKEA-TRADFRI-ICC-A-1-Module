@@ -40,21 +40,24 @@ RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot
 
 ### Firmware:
 
-Dumped one new (never pared) LED1837R5 with BlackMagic-espidf.  
+Dumped LED1837R5, LED1836G9 and E1743 with BlackMagic-espidf.  
 
-Bootloader: First stage bootloader its OK. Also updated to latest version.  
-Seccund stage bootloader updated with mtx512 and can force bootloader boot and loading app.  
+Bootloader: First stage bootloader its OK. Also possible update to latest version.  
+Secund stage bootloader updated to standalone bootloader and can force bootloader boot and loading app.  
 
 [mtx512](https://github.com/mtx512) have compilles a inital [firmware set](https://github.com/mtx512/efr32/tree/master/icc-a-1).  
+I have changing the pins for RX and TX for matching with the layout of E1743 so mx512 main bootloader you need using  PA14 TX and PA15 RX with it. The NCP app its crashing hard.
+@[nicolson](https://github.com/nicolson) have supplied one set with working first and main bootloader but with the same problem with the NCP app is the mx512 one.  
+The jnicolsons bootloader use RX and TX pins standard way, PB15 and PB14.   
 
-Then having the new bootloader in place it its only booting in bootloader mode thrue pressing the LigthingLink button (if using a controll device)(PA0 low) and poweron and then upload the EZSP from the bootloader over serial. 
+Having one 3rd NCP thats its not possible installing thrue bootloader but looks like working then flashed thrue SWD.  
+
 
 Problem with NCP app loaded but crashing:
-Less likly its that the 6.7.6.x NCP its to large for the MG with 256K flash but Ikeas GW have larger OTA file.  
-More likly its problem with the UART port for RX and TX its conflicting with the external flash that using SPI.  
-Tecnical SPI its using the USART ports maped to the external pins for MISO and MOSI. The logick for HW to SW config its a large mess.
+Its a very hard one then its not possible connecting with SWD, must reboot in bootloader mode then SWD its working.  
 
-Todo: New pinout for matching the pads of E1743 is PA14 TX and PA15 RX.
+For more info of current NCP[firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
+
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
 
