@@ -30,7 +30,7 @@ Port /dev/ttyUSB1, 14:13:41
                                                                              
 Press CTRL-A Z for help on special keys                                              
                                                                                      
-11 1a c2 02 8b c2 8a 7e  
+1a c2 02 8b c2 8a 7e  
 ```
 
 And you have a very happy Mighty Gecko !!!
