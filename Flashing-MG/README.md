@@ -183,14 +183,14 @@ Bootloader sending "C" evry secund and waiting for a xmodem upload.
 Serial upload complete  
 BL >   
 ```
-Then uploade its finish and if CRC its OK you getting a message and can reboot your very HAPPY Mighty Gecko.  
+Then the uploade its finish and if CRC its OK you getting a message and can reboot your very HAPPY Mighty Gecko.  
 
 [Firmware files](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/Firmware) for more info of NCP firmware for our Mighty Gecko.  
 
 # BRICK WARING !!
 
 #### If erasing the internal flash you must flashing both the first stage and secund stage (Main bootloader) or your gecko dont boot at all or making cracy GECKO things !
-#### I have booting to bootloader after erasing internal flash and flashing botloader and reading it back and the first 0x0800 wos only ff = empty, and from the bootloader flashing one app and it wos writing the app ofset and coruppted the perfials and lockbits aria = Hard brick !!!
+#### I have booting to bootloader after erasing internal flash and flashing botloader and reading it back and the first 0x0800 wos only ff = empty, and from the bootloader flashing one app and it wos writing the app at wrong ofset and coruppted the perfials and lockbits aria = Hard brick !!!
 
   
 
