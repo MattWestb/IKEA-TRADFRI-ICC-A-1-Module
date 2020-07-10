@@ -48,16 +48,17 @@ Remote debugging using 192.168.4.1:2022
 Scan for SWD targets. Attatch target. Show info of your Gecko. 
 ```
    
-(gdb) mon sw  
-Available Targets:  
-No. Att Driver  
- 1      EFR32MG1P 132 F256 Mighty Gecko M3/M4  
-
-(gdb) att 1  
-Attaching to Remote target  
-warning: No executable has been specified and target does not support  
-determining executable automatically.  Try using the "file" command.  
-0x00007186 in ?? ()  
+(gdb) mon sw
+Target voltage: 2984mV
+Available Targets:
+No. Att Driver
+ 1      EFR32MG1P 132 F256 Mighty Gecko M3/M4
+(gdb) att 1
+Attaching to Remote target
+warning: No executable has been specified and target does not support
+determining executable automatically.  Try using the "file" command.
+0x0000234a in ?? ()
+  
   
 (gdb) mon efm_info  
 DI version 1 (silabs remix?) base 0x0fe08000  
