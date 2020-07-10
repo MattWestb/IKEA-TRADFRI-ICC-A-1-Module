@@ -3,7 +3,7 @@
 ### Gecko Bootloaders:
 The ICC-A-1 module have an Gecko Application Bootloader installed that only works with OTA files downloaded thrue Zigbee and stored on the external flash.  
   
-So we need to flash one new bootloader for loading the NCP app in the flash.  
+So first we need to flash one new bootloader for loading the NCP app in the flash.  
   
 Flashing new bootloader to the gecko must being done with J-tag or SWD and using s37 files.    
   
