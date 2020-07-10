@@ -121,8 +121,7 @@ If not writing anny app @0x4000 or app image upload fails, the app isn’t valid
 
 ### Bin files: 
 
-Coverting bin file to elf in a terminal.
-[arm-none-eabi-objcopy](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+Coverting bin file to elf in a terminal with [arm-none-eabi-objcopy](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads).
 ```
 arm-none-eabi-objcopy --input-target binary --output-target elf32-little XYZ17.bin XYZ17.elf  
 ```
