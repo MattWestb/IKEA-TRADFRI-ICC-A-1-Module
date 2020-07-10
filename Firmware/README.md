@@ -12,7 +12,7 @@ If erasing the internal flash you must flashing the icc-a-1-bootloader-combined.
 I have booting to bootloader after erasing internal and flashing botloader and reading it back and the first 0x0800 wos only ff = empty,  and from the bootloader flashing one app and it wos written it ofset and coruppted the perfials and lockbits aria = Hard brick !!!  
 
 ### Gecko NCP:
-NCP files can being flashed from main bootloader with gbl files or with  J-tag / SWD with s37 files.  
+NCP app can being flashed from main bootloader with gbl files or with  J-tag / SWD with s37 files.  
 My current NCP gbl file its not accsepted bye the bootloader but the s37 version flashed over SWD works OK.  
 
 
