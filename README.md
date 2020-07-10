@@ -3,7 +3,7 @@
 ### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module.
 
 [s-hadinger](https://github.com/s-hadinger) have the EZSP upp and running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) with help of [mtx512](https://github.com/mtx512)
-our maker of bootoader and coordinator firmware.
+one of our maker of bootoader and NCP firmware.
 If all going well sud it woring with [HA and OpenHab](https://sprut.ai/client/article/2583).  
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.
 
