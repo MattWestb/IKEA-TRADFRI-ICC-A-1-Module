@@ -53,6 +53,20 @@ The jnicolsons bootloader use RX and TX pins in a standard way (PB15 and PB14) a
 
 Having one 3rd NCP thats its not possible installing thrue bootloader but looks like working then flashed thrue SWD.  
 
+My ICC-A-1 its transformed to a very happy BillyGecko !!
+
+
+```
+Welcome to minicom 2.7.1
+
+OPTIONS: I18n                                                                
+Compiled on May  3 2018, 15:20:11.                                           
+Port /dev/ttyUSB1, 14:13:41                                                  
+                                                                             
+Press CTRL-A Z for help on special keys                                              
+                                                                         
+11 1a c2 02 8b c2 8a 7e             
+```
 
 Problem with NCP app loaded but crashing:
 Its a very hard one then its not possible connecting with SWD, must reboot in bootloader mode then SWD its working.  
