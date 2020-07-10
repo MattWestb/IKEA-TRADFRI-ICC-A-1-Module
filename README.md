@@ -49,7 +49,7 @@ Secund stage bootloader updated to standalone bootloader and can force bootloade
 I have changing the pins for RX and TX for matching with the layout of E1743 so if using mx512s main bootloader you need using  PA14 TX and PA15 RX with it. The NCP app its crashing hard.  
   
 @[nicolson](https://github.com/nicolson) have supplied one set with working first and main bootloader but with the same problem with the NCP app is the mx512 one.  
-The jnicolsons bootloader use RX and TX pins standard way, PB15 and PB14.   
+The jnicolsons bootloader use RX and TX pins in a standard way (PB15 and PB14) and its woking.   
 
 Having one 3rd NCP thats its not possible installing thrue bootloader but looks like working then flashed thrue SWD.  
 
