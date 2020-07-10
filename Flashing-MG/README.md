@@ -150,7 +150,7 @@ Transfer rate: 11 KB/sec, 890 bytes/write.
 (gdb)  
 ```
 
-Now we have updated our gecko witha new first main bootloader.  
+Now we have updated our gecko witha a new first and main bootloader.  
 
 ## App flashing:  
 
