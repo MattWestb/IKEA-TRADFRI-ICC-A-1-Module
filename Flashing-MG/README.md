@@ -79,8 +79,8 @@ Num Enb Low Addr   High Addr  Attrs
 (gdb)  
 ```
 
-Reg 0 = Flash (256K)  
-Reg 1 = Userdata (2K)  
+Reg 0 = Internal flash (256K) (First and main bootloader, app and emulated EEPROM).    
+Reg 1 = Userdata (2K) (Its an separate region of internal flash that normally not being erased with erase_mass).  
 Reg 2 = Bootloader (10K) (Factory bootloader ??)  
 Reg 3 = Ram (32K)  
 
