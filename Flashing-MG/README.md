@@ -134,14 +134,15 @@ Transfer rate: 15 KB/sec, 985 bytes/write.
 ### s37 files:  
   ```
 (gdb)  
-(gdb) load bootloader-uart-xmodem_storage.s37  
-Loading section .sec1, size 0x3714 lma 0x800  
-Start address 0x8d0, load size 14100  
-Transfer rate: 22 KB/sec, 940 bytes/write.   
+(gdb) load icc-a-1-bootloader-combined.s37
+Loading section .sec1, size 0x59c lma 0x0
+Loading section .sec2, size 0x3210 lma 0x800
+Start address 0x0, load size 14252
+Transfer rate: 11 KB/sec, 890 bytes/write.  
 (gdb)  
 ```
 
-Now we have updated a new main bootloader on the SoC.  
+Now we have updated our gecko witha new first main bootloader.  
 
 ## Bootloader app flashing:  
 
