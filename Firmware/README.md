@@ -41,5 +41,5 @@ And you have a very happy Mighty Gecko !!!
 ### [mx512](https://github.com/mtx512)
 ### [grobasoz](https://github.com/grobasoz)
 ### [jnicolson](https://github.com/jnicolson) 
-for helping making firmware and helping putting all thibgs together to a working firmware set for the "Billy EZSP" ! ! !  
+for helping making firmware and putting all things together to a working firmware set for the "Billy EZSP" ! ! !  
 
