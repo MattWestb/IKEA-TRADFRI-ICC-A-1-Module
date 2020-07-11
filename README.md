@@ -48,30 +48,18 @@ Secund stage bootloader updated to standalone bootloader and can force bootloade
 [mtx512](https://github.com/mtx512) have compilles a inital [firmware set](https://github.com/mtx512/efr32/tree/master/icc-a-1).  
 I have changing the pins for RX and TX for matching with the layout of E1743 so if using mx512s main bootloader you need using  PA14 TX and PA15 RX with it. The NCP app its crashing hard.  
   
-[nicolson](https://github.com/jnicolson) have supplied one set with working first and main bootloader but with the same problem with the NCP app is the mx512 one.  
-The jnicolsons bootloader use RX and TX pins in a standard way (PB15 and PB14) and its woking.   
+[nicolson](https://github.com/jnicolson) and [grobasoz](https://github.com/grobaso) have supplied sets with working first and main bootloader and NCP app.  
+Both jnicolsons and grobasoz bootloader use RX and TX pins in a standard way (PB15 and PB14) and its woking.   
 
-Having one 3rd NCP thats its not possible installing thrue bootloader but looks like working then flashed thrue SWD.  
+jnicolsons NCP app behaving like mx5112s = crashing hard.  
+grobasozs NCP looks working well and its made in version 6.6.4.0 and 6.7.4.0.  
 
-My ICC-A-1 its transformed to a very happy BillyGecko !!
+If updating the bootloader and flashing NCP your get a very happy Mighty Gecko being transformed to an "Ikea Billy EZPS".
 
-
-```
-Welcome to minicom 2.7.1
-
-OPTIONS: I18n                                                                
-Compiled on May  3 2018, 15:20:11.                                           
-Port /dev/ttyUSB1, 14:13:41                                                  
-                                                                             
-Press CTRL-A Z for help on special keys                                              
-                                                                         
-11 1a c2 02 8b c2 8a 7e             
-```
+For more info of current NCP [firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
 
 Problem with NCP app loaded but crashing:
 Its a very hard one then its not possible connecting with SWD, must reboot in bootloader mode then SWD its working.  
-
-For more info of current NCP [firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
