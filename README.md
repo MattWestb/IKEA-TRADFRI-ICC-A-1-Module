@@ -56,7 +56,7 @@ grobasozs NCP looks working well and its made in version 6.6.4.0 and 6.7.4.0.
 
 If updating the bootloader and flashing NCP your get a very happy Mighty Gecko being transformed to an "Ikea Billy EZPS".
 
-For more info of current NCP [firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
+For more info of current [firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
 
 Problem with NCP app loaded but crashing:
 Its a very hard one then its not possible connecting with SWD, must reboot in bootloader mode then SWD its working.  
