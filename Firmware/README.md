@@ -7,15 +7,16 @@ So first we need to flash one new bootloader in the internal flash for loading t
   
 Flashing new bootloader to the gecko must being done with J-tag or SWD and using elf (not recomended) or s37 files.    
   
-Its normaly OK flashing without erasing the internal flash, then you can flash the "icc-a-1-bootloader.s37" that contain only the secund stage (Main) bootloader.  
-If erasing the internal flash you must flashing the "icc-a-1-bootloader-combined.s37" that contains both the first stage and secund stage (Main) bootloader, or your gecko dont boot at all or making cracy GECKO things !  
+Its normaly OK flashing without erasing the internal flash, then you can flash the [icc-a-1-bootloader.s37](icc-a-1-bootloader.s37) that contain only the secund stage (Main) bootloader.  
+If erasing the internal flash you must flashing the [icc-a-1-bootloader-combined.s37](icc-a-1-bootloader-combined.s37) or [BTL_STD_S1_256-COM_PB14-PB15-PA0.s37](BTL_STD_S1_256-COM_PB14-PB15-PA0.s37) that contains both the first stage and secund stage (Main) bootloader, or your gecko dont boot at all or making cracy GECKO things !  
 I have booting to bootloader after erasing internal and flashing botloader and reading it back and the first 0x0800 wos only ff = empty,  and from the bootloader flashing one app and it wos written it ofset and coruppted the perfials and lockbits aria = Hard brick !!!  
 
-### Gecko APP = our NCP:
+### Gecko APP = "Billy EZSP":
 NCP app can being flashed from main bootloader with gbl files or with  J-tag / SWD with elf file @0x04000 (not recomended) or s37 file.  
-My current used NCP [gbl](https://github.com/grobasoz/zigbee-firmware/blob/master/NCP_USW_MG1P132F256-115k2-V676.ebl) file its not accsepted bye the bootloader but the [s37](https://github.com/grobasoz/zigbee-firmware/blob/master/NCP_USW_MG1P132F256-115k2-V676.s37) version flashed over SWD works OK.  
+My current NCP gbl file its not accsepted bye the bootloader but the s37 version flashed over SWD works OK.  
+The "NCP_USW_115K2_S1_F256_676_PB14-PB15.s37" its EZSP version 6.7.6.0 and "NCP_USW_115K2_S1_F256_664_PB14-PB15.s37" its version 6.6.4.0.
 
-If all was going well your Mighty Gecko its sending "hallo world" in gecko lang...  
+If all was going well your Mighty Gecko its transformed in to a "Billy EZSP" and sending "hallo world" in gecko lang...  
 Windows with Extra PTTY:
 ```
 ▒▒�~
@@ -35,5 +36,9 @@ Press CTRL-A Z for help on special keys
 
 And you have a very happy Mighty Gecko !!!
 
-### Big  thanks to : [mx512](https://github.com/mtx512), [grobasoz](https://github.com/grobasoz) and [jnicolson](https://github.com/jnicolson) for helping putting working firmware together.  
+# Big  thanks to : 
+### [mx512](https://github.com/mtx512)
+### [grobasoz](https://github.com/grobasoz)
+### [jnicolson](https://github.com/jnicolson) 
+for helping making firmware and helping putting all thibgs together to as a working firmware set for the "Billy EZSP" ! ! !  
 
