@@ -1,6 +1,6 @@
-# IKEA TRÅDFRI ICC-A-1 Module.
+# IKEA TRÅDFRI Billy EZSP.
 
-### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module.
+### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module and transforming it to an "Billy EZSP".
 
 [s-hadinger](https://github.com/s-hadinger) have the EZSP upp and running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) with help of [mtx512](https://github.com/mtx512)
 one of our maker of bootoader and NCP firmware.
