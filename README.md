@@ -35,7 +35,7 @@ RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot
 
 ### Flashing:
 
-[Flashing ICC-1](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Flashing-MG).  
+Look at [Flashing ICC-1](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Flashing-MG).  
 
 
 ### Firmware:
@@ -43,7 +43,7 @@ RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot
 Dumped LED1837R5, LED1836G9 and E1743 with BlackMagic-espidf. Look in the [teardowns files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/teardowns).   
 
 Bootloader: First stage bootloader its OK. Also possible update to latest version.  
-Secund stage bootloader updated to standalone bootloader and can force bootloader boot and loading app.  
+Secund stage bootloader updated to standalone bootloader and can force bootloader boot and flashing app.  
 
 [mtx512](https://github.com/mtx512) have compilles a inital [firmware set](https://github.com/mtx512/efr32/tree/master/icc-a-1).  
 I have changing the pins for RX and TX for matching with the layout of E1743 so if using mx512s main bootloader you need using PC10 as TX and PAC11 as RX with it. The NCP app its crashing hard.  
