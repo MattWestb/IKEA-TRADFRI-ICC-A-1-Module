@@ -17,11 +17,12 @@ My current NCP gbl file its not accsepted bye the bootloader but the s37 version
 The [NCP_USW_115K2_S1_F256_676_PB14-PB15.s37](NCP_USW_115K2_S1_F256_676_PB14-PB15.s37) its EZSP version 6.7.6.0 and [NCP_USW_115K2_S1_F256_664_PB14-PB15.s37](NCP_USW_115K2_S1_F256_664_PB14-PB15.s37) its version 6.6.4.0 of EZSP = our NCP.  
 
 If all was going well your Mighty Gecko its transformed in to a "Billy EZSP" and sending "hallo world" in gecko lang...  
+  
 Windows with Extra PTTY:
 ```
 ▒▒�~
 ```
-And in Lubuntu with Minicom:
+And in Lubuntu with Minicom -H:
 ```
 Welcome to minicom 2.7.1
 
