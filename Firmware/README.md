@@ -43,3 +43,59 @@ And you have a very happy Mighty Gecko !!!
 ### [jnicolson](https://github.com/jnicolson) 
 for helping making firmware and putting all things together to a working firmware set for the "Billy EZSP" ! ! !  
 
+
+
+## Tasmota dev with ZIGBEE_EZSP
+  
+File: tasmota20.bin  
+Compilled with:  
+  ```
+#define USE_ZIGBEE
+#undef USE_ZIGBEE_ZNP
+#define USE_ZIGBEE_EZSP
+  ```
+ Dev with ZIGBEE_EZSP.   
+  ```
+ICC-A-1 Zigbee Bridge  
+Tasmota  
+Program Version	8.4.0(tasmota)  
+Build Date & Time	2020-07-13T07:28:21  
+Core/SDK Version	2_7_2/2.2.2-dev(38a443e)  
+  ```
+  
+Use Template:   
+``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,255,157,255,255,255,0,0,255,166,255,165,255],"FLAG":15,"BASE":18} ```  
+  
+  
+Desable loging to UART so EZSP can using hardware UART.   
+In consol: ``` "SerialLog 0" ```  
+  
+Reboot for hardware UART take change.  
+  
+Use RX GIPO 13 and TX GIPO 15 for EZSP com so USB dont interferenc with it.  .  
+
+  ```
+ 07:51:45 ZIG: Resetting EZSP device
+07:51:46 RSL: tele/tasmota_B3C82A/RESULT = {"ZbState":{"Status":1,"Message":"EFR32 booted","RestartReason":"Software","Code":11}}
+07:51:46 ZIG: ZbEZSPSend 000008
+07:51:46 ZIG: {"ZbEZSPReceived":"000008026067"}
+07:51:46 RSL: tele/tasmota_B3C82A/RESULT = {"ZbState":{"Status":55,"Version":"6.7.6.0","Protocol":8,"Stack":2}}
+07:51:46 RSL: tele/tasmota_B3C82A/RESULT = {"ZbState":{"Status":3,"Message":"Configured, starting coordinator"}}
+07:51:46 ZIG: ZbEZSPSend 53001E0200
+07:51:46 ZIG: {"ZbEZSPReceived":"530000"}
+.
+.
+07:51:46 ZIG: ZbEZSPSend 2800
+07:51:46 ZIG: {"ZbEZSPReceived":"28000001CCCCCCCCCCCCCCCC631A140B0000000000F8FF07"}
+07:51:46 RSL: tele/tasmota_B3C82A/RESULT = {"ZbState":{"Status":56,"IEEEAddr":"0xCCCCCCFFFEB9B319","ShortAddr":"0x0000","DeviceType":1}}
+07:51:46 RSL: tele/tasmota_B3C82A/RESULT = {"ZbState":{"Status":0,"Message":"Started"}}
+07:51:46 ZIG: Zigbee started
+07:51:46 ZIG: No zigbee devices data in Flash
+ ```
+   
+ Your Billy EZSP its up and running on Tasmota dev.  
+ 
+ ### Compilling Tasmota:
+  
+The easyest way is to use [Gitpod](https://tasmota.github.io/docs/Gitpod/) for compilling the bin file and downloading it and flash your ESP82xx.  
+
