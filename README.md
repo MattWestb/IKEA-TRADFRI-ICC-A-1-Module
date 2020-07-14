@@ -1,12 +1,16 @@
-# IKEA TRÅDFRI Billy EZSP.
+# IKEA TRÅDFRI Billy EZSP
 
-### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module and transforming it in to a "Ikea Billy EZSP".
 
-[s-hadinger](https://github.com/s-hadinger) have the EZSP upp and running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) with help of [mtx512](https://github.com/mtx512)
-one of our maker of bootoader and NCP firmware.
-If all going well sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583).  
-[MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.
 
+IKEA TRÅDFRI ICC-A-1 Zigbee Module is found in most IKEA TRÅDFRI devices and this is hacking project with instructions for removing those modules and reprogramming it with Silicon Labs EmberZNet Zigbee Coordinator firmware to transform it in to a "IKEA TRÅDFRI Billy EZSP" module which then can be used as a cheap Zigbee 3.0 serial control adapter by other home automation projects.
+
+### Backstory and history:
+
+Background is that [Zigbee2Tasmota (Tasmota Zigbee solution)](https://tasmota.github.io/docs/Zigbee/) developer [s-hadinger](https://github.com/s-hadinger) is working on adding support for Silicon Labs EZSP (EmberZNet Serial Protocol) to [Tasmota](https://tasmota.github.io/docs/), a popular open source firmware for Espressif ESP82xx Wi-Fi microcontrollers, and got it working with [Sonoff ZBBridge (Sonoff Zigbee Bridge)](https://github.com/arendst/Tasmota/issues/8583) with help of developer [mtx512](https://github.com/mtx512) who compiled a EFR32 bootoader and a NCP firmware with Silicon Labs EmberZNet Zigbee Stack for it.
+
+At the same time [MPM1107](https://github.com/MPM1107) is also looking at implenting support for Silicon Labs EZSP (EmberZNet Serial Protocol) into the Zigbee2MQTT (Z2M) project via the [zigbee-herdsman](https://github.com/Koenkk/zigbee-herdsman/issues/168) library. If he and/or other Z2M developers get that working then this would be a graet option for getting access to inexpensive Zigbee 3.0 coordinator hardware.
+
+If all goes well it might also be possible to get it working with [Home Assistant and OpenHAB](https://sprut.ai/client/article/2583).
 
 ### ICC-1 / ICC-A-1 Module:
 
@@ -17,7 +21,7 @@ If all going well sud it working with [HA and OpenHab](https://sprut.ai/client/a
 #### For more info: [Teardown ICC-A-1](teardowns/ICC-A-1).
 
 
-### For EZSP use :
+### For EZSP use:
 
 | Pad | EFR32 pins | Description |
 |------------|-----------|-------|
@@ -67,7 +71,7 @@ Its a very hard one then its not possible connecting with SWD, must reboot in bo
 [Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.6.0.pdf) 2.2 API Changes: EZSP Protocol Version 8 and Secure EZSP Protocol Version 2. (Changed in release 6.7.0.0). Both EZSP and Secure EZSP have adopted a new frame format with the following changes: (1) the fields of "Frame Control" and "Frame ID" are now two bytes; (2) no longer use "Legacy Frame ID"; (3) consume two bits of "Frame Control" to indicate the frame format version
 which is version 1 now. 
 
-Disabling fallback to older prottokoll making its a braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
+Disabling fallback to older protocol making its a braking thing for current zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
 
 Zigpy have starting looking getting v8 support and also some Zigbee2Mqtt fans are trying implenting EZSP in Z2M.  
 [s-hadinger](https://github.com/s-hadinger) have it upp and running on Sonoff Zigbee Bridge with Tasmota and woking to getting it working for 100%.  
@@ -75,7 +79,7 @@ Zigpy have starting looking getting v8 support and also some Zigbee2Mqtt fans ar
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
 
-[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.6.4.0.pdf) Laterst version with EZSP Protocol Version 7 and Secure EZSP Protocol Version 1. 
+[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.6.4.0.pdf) Latest version supports up to EZSP Protocol Version 7 and Secure EZSP Protocol Version 1. 
 
-Its backword compatible with the old EZSP protocol (v 4/5) used in zigpy / bellows and making it working in with HA and OpenHab.
+Main benefits with EmberZNet version 6.6.x.x is that it backwards compatible with the older EZSP protocol (v4/v5) currently used by zigpy / bellows, possibly making it easier to get it working in with Home Aasistnt and OpenHAB without modifications.
 
