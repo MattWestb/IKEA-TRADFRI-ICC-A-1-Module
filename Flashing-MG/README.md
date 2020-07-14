@@ -1,8 +1,7 @@
 # Flashing the ICC-1 Module  
   
-Then i not having any JLink: €ß$ as [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout), so insted i using a ESP8266 or SMT32 as SWD / jtag probe.  
-With BlackMagic Probe (BMP) or 
-with  Blue Pill as a BMP (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
+Then i not having any JLink: €ß$ as [Basilfix](https://github.com/basilfx/TRADFRI-Hacking#pinout), so insted i using a ESP8266 or SMT32 as SWD / jtag probe and flashing with GDB.  
+With BlackMagic Probe (BMP) or with  Blue Pill as a BMP (STM32F103 board as SWD / jtag probe): [ZW](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).  
 With ESP8266 as a BMP: [BlackMagic-espidf](https://github.com/MattWestb/blackmagic-espidf).  
 (BMP: if having problem connecting to the target or writing to target fails add ~130 Ohm restistor in serie with SWD/Jtag pins). 
 
@@ -92,7 +91,10 @@ Reg 1 = Userdata (2K) (Its an separate region of internal flash ouside the norma
 Reg 2 = Bootloader (10K) (Factory bootloader ??)  
 Reg 3 = Ram (32K)  
 
-
+Readout with J-Link and Simplicity Commander:   
+  
+[<img src="SC01.PNG" alt="SimplicityCommander" width="512">](E1743.jpg)
+  
 ## Dumping internal flash / memory to file:
 ```
    
