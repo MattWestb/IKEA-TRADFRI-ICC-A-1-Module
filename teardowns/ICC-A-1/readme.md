@@ -49,9 +49,9 @@ Hocked up and dumped !!
 | 03         | PB14      | TX | Down | TX |  |  |
 | 04         | PC10      |  | On/Off | On/Up |  |  |
 | 05         | PC11      |  | Right | LED |  |  |
-| 06         | PF0       | SWD Debug |  |  | TP2 |  |
-| 07         | PF1       | SWD Debug |  |  | TP1 |  |
-| 08         | PF2       | SWD Debug |  |  | TP3 |  |
+| 06         | PF0       | SWD SWCLK |  |  | TP2 |  |
+| 07         | PF1       | SWD SWDIO |  |  | TP1 |  |
+| 08         | PF2       | SWD SWO |  |  | TP3 |  |
 | 09         | PF3       |  |  |  | TP4 |  |
 | 10         | RESETn    | HW Reset | Reset | Reset | Reset TP5 |  |
 | 11         | VDD       |  3.3V | 3.3V | 3.3V | 3.3V | 3.3V |
