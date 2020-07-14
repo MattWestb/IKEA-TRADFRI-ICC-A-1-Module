@@ -114,7 +114,7 @@ Erase successful!
 Now we have a SoC with empty internal flash.  
 
 After erase_mass you must writing the bootloaders to the flash. The first stage bootloader: as elf file @0x0 or s37 file. And secund stage (Main) bootloader: as elf @0x0800 or s37 file. Or both first and secund (main) bootloaders: one dumped elf file with both bootloader @0x0 or one s37 file with both bootloader (s37 files have all meta inside).  
-If not writing anny app @0x4000 or app image upload fails, the app isn’t valid (wrong CRC) and next boot is stoping in the main bootloader.  
+If not writing anny app @0x04000 or app image upload / flash fails, the app isn’t valid (wrong CRC) and next boot is stoping in the main bootloader.  
   
  
 ## Write to internal flash: 
