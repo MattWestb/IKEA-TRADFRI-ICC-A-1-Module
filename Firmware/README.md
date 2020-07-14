@@ -42,9 +42,10 @@ And you have a very happy Mighty Gecko !!!
 ### [grobasoz](https://github.com/grobasoz)
 ### [jnicolson](https://github.com/jnicolson) 
 for helping making firmware and putting all things together to a working firmware set for the "Billy EZSP" ! ! !  
-
-
-
+ 
+ 
+### For flashing your module look at [Flashing-MG:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/Flashing-MG)  
+   
 ## Tasmota dev with ZIGBEE_EZSP
   
 File: [tasmota20.bin](tasmota20.bin).  
