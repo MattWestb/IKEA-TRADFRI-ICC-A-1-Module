@@ -98,4 +98,5 @@ Use RX GIPO 13 and TX GIPO 15 for EZSP com so USB dont interferenc with it.  .
  ### Compilling Tasmota:
   
 The easyest way is to use [Gitpod](https://tasmota.github.io/docs/Gitpod/) for compilling the bin file and downloading it and flash your ESP82xx.  
+One Tasmota dev compilled and ready for youse [tasmota20.bin](tasmota20.bin).
 
