@@ -58,8 +58,8 @@ Hocked up and dumped !!
 | 12         | GND       | GND | GND | GND | GND | GND |
 | 13         | PB13      | PMW 1 | LED |  |  |  |
 | 14         | PB12      | PMW 2 |  | Off/Down |  | On/Off |
-| 15         | PA1       | PMW 3 | Up |  | LLB TP6 | LED |
-| 16         | PA0       | PMW 4 | LLB | LLB | LED TP7 | LLB |
+| 15         | PA1       | PMW 3 | Up |  | TLB TP6 | LED |
+| 16         | PA0       | PMW 4 | TLB | TLB | LED TP7 | TLB |
 | 17         | PC11      |  |  |  |  |
 
 
