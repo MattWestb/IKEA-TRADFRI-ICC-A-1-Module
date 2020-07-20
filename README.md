@@ -5,7 +5,8 @@
 [s-hadinger](https://github.com/s-hadinger) have the EZSP upp and running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) with help of [mtx512](https://github.com/mtx512)
 one of our maker of bootoader and NCP firmware.
 If all going well sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583).  
-[MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.
+[MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
+For the moment is [HA](IKEA-TRADFRI-ICC-A-1-Module/HA) working with EZSP version 6.6.4.0.
 
 
 ### ICC-1 / ICC-A-1 Module:
