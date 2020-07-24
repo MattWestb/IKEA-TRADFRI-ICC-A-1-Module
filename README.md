@@ -49,7 +49,7 @@ Secund stage (main) bootloader updated to standalone bootloader and can force bo
 [mtx512](https://github.com/mtx512) have compilles a inital [firmware set](https://github.com/mtx512/efr32/tree/master/icc-a-1).  
 I have changing the pins for RX and TX for matching with the layout of E1743 so if using mx512s main bootloader you need using PC10 as TX and PAC11 as RX with it. The NCP app its crashing hard.  
   
-[nicolson](https://github.com/jnicolson) and [grobasoz](https://github.com/grobaso) have supplied sets with working first and main bootloader and NCP app.  
+[nicolson](https://github.com/jnicolson) and [grobasoz](https://github.com/grobasoz) have supplied sets with working first and main bootloader and NCP app.  
 Both jnicolsons and grobasoz bootloader use RX and TX pins in a standard way (PB15 and PB14) and its woking.   
 
 jnicolsons NCP app behaving like mx5112s = crashing hard.  
