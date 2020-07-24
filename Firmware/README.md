@@ -63,7 +63,7 @@ Program Version	8.4.0(tasmota)
 Build Date & Time	2020-07-13T07:28:21  
 Core/SDK Version	2_7_2/2.2.2-dev(38a443e)  
   ```
-Or grabbing on of the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin"
+Or grabbing on of the [dayly dev builds](https://github.com/Jason2866/Merge/tree/firmware/firmware/tasmota/other) with the name "tasmota-zigbee.bin.gz"
   
 Use Template:   
 ``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,255,157,255,255,255,0,0,255,166,255,165,255],"FLAG":15,"BASE":18} ```  
