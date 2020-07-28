@@ -36,7 +36,7 @@ RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot
 
 ### Flashing:
 
-Look at [Flashing ICC-1](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Flashing-MG).  
+[Flashing ICC-1](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Flashing-MG).  
 
 
 ### Firmware:
