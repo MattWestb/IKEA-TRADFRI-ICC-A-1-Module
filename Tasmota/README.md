@@ -2,14 +2,14 @@
   
 ICC-A-1 Zigbee Bridge  
 
-Grabbing on of the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin"
+Grabbing on of the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi.  
   
 Use Template:   
 ``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,165,157,166,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```  
   
   
 Disable loging to UART so EZSP can using hardware UART.   
-In consol: ``` "SerialLog 0" ```  
+In tasmota console: ``` "SerialLog 0" ```  
   
 Reboot for hardware UART take change.  
   
