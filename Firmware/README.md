@@ -66,7 +66,7 @@ Core/SDK Version	2_7_2/2.2.2-dev(38a443e)
 Or grabbing on of the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin"
   
 Use Template:   
-``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,255,157,255,255,255,0,0,255,166,255,165,255],"FLAG":15,"BASE":18} ```  
+``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,165,157,166,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```  
   
   
 Desable loging to UART so EZSP can using hardware UART.   
@@ -74,7 +74,7 @@ In consol: ``` "SerialLog 0" ```
   
 Reboot for hardware UART take change.  
   
-Use RX GIPO 13 and TX GIPO 15 for EZSP com so USB dont interferenc with it.  .  
+Use RX GIPO03 and TX GIP=1 for EZSP com so USB dont interferenc with it.  .  
 
   ```
  07:51:45 ZIG: Resetting EZSP device
