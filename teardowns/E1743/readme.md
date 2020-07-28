@@ -24,5 +24,5 @@ User Data: E1743_UD.bin
 | FP1 | TMS | SWDIO |
 | FP0 | CLK | SWCLK |
 | GND | GND | GND |
-|  | TX | TX |
-|  | RX | RX |
+| PB14 | TX | TX |
+| PB15 | RX | RX |
