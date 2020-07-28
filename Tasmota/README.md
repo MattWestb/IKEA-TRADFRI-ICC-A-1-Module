@@ -1,6 +1,5 @@
-## Tasmota dev with EZSP
+## Tasmota Zigbee EZSP
   
-
 ICC-A-1 Zigbee Bridge  
 
 Grabbing on of the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin"
