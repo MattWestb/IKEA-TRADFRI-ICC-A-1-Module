@@ -37,8 +37,11 @@ Use RX GIPO03 and TX GIP01 for EZSP com.
  Your Billy EZSP its up and running on Tasmota Zigbee EZSP.  
  
 ### Tasmota as TCP UART:
+  
 ICC-A-1 EZSP on one ESP as TCP UART.  
+
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi.  
+  
 Run in the tasmota console:  
 ``` backlog rule1 on system#boot do TCPStart 8888 endon ; rule1 1 ; template {"NAME":"ICC-A-1 TCP UART","GPIO":[255,208,157,209,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```
 
