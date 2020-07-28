@@ -35,7 +35,7 @@ Use RX GIPO03 and TX GIP01 for EZSP com.
 07:51:46 ZIG: No zigbee devices data in Flash
  ```
    
- Your Billy EZSP its up and running on Tasmota dev.  
+ Your Billy EZSP its up and running on Tasmota Zigbee EZSP.  
  
 ### Tasmota as TCP UART:
 
