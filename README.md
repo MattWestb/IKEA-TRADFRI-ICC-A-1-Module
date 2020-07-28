@@ -6,7 +6,7 @@
 one of our maker of bootoader and NCP firmware.
 If all going well sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583).  
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
-For the moment is [HA](HA) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3.
+For the moment is [HA](HA) and [tasmota](Tasmota) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3 its leving the network.
 
 
 ### ICC-1 / ICC-A-1 Module:
@@ -36,7 +36,7 @@ RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot
 
 ### Flashing:
 
-[Flashing ICC-1](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Flashing-MG).  
+[Flashing ICC-1](Flashing-MG).  
 
 
 ### Firmware:
@@ -57,7 +57,7 @@ grobasozs NCP looks working well and its made in version 6.6.4.0 and 6.7.4.0.
 
 If updating the bootloader and flashing NCP your get a very happy Mighty Gecko being transformed to an "Ikea Billy EZPS".
 
-For more info of current [firmware files:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Modul/tree/master/Firmware).  
+For more info of current [firmware files:](Firmware).  
 
 Problem with NCP app loaded but crashing:
 Its a very hard one then its not possible connecting with SWD, must reboot in bootloader mode then SWD its working.  
@@ -81,10 +81,10 @@ Zigpy have starting looking getting v8 support and also some Zigbee2Mqtt fans ar
 Its backword compatible with the old EZSP protocol (v 4/5) used in zigpy / bellows and making it working in with HA and OpenHab.
 
 ### Using Tasmota: 
-[Tasmota](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/Tasmota). 
+[Tasmota](Tasmota). 
 
 ### Using ZHA:
-[ZHA](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/HA). 
+[ZHA](HA). 
 
 
 ### More references and sources of information
