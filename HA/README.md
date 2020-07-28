@@ -1,5 +1,6 @@
 ### Home Assistant
-ICC-A-1 up and running on HA with EZSP ver 6.6.4.0  
+ICC-A-1 up and running on HA with EZSP ver 6.6.4.0 and 6.7.4.0.  
+Use 115200 as comport speed and if you like tasmoat as TCO UART.
 Funny thing HA saying its a deCONZ coordinato.  
 Current status its that its looks being problems with newer Zigbee 3 devices or timing problems.  
 The devs its digging deeper and deeper so very soon they finding the problem.  
