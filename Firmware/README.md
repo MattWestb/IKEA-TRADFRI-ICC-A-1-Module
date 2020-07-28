@@ -1,7 +1,7 @@
 # Firmware files:
 
 ### Gecko Bootloaders:
-The ICC-A-1 module have an Gecko Application Bootloader installed that only works with OTA files downloaded thrue Zigbee and stored on the external flash.  
+The ICC-A-1 module have an Gecko Application Bootloader installed that only works with OTAU files downloaded thrue Zigbee and stored on the external flash.  
   
 So first we need to flash one new bootloader in the internal flash for loading the NCP app in the internal flash.  
   
