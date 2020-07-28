@@ -71,7 +71,7 @@ which is version 1 now.
 Disabling fallback to older prottokoll making its a braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
 
 Zigpy have starting looking getting v8 support and also some Zigbee2Mqtt fans are trying implenting EZSP in Z2M.  
-[s-hadinger](https://github.com/s-hadinger) have it upp and running on Sonoff Zigbee Bridge with Tasmota and woking to getting it working for 100%.  
+[s-hadinger](https://github.com/s-hadinger) have it upp and running on Sonoff Zigbee Bridge with Tasmota and hi is woking to getting it working for 100%.  
 
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
