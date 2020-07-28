@@ -9,7 +9,7 @@ Use Template:
 ``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,165,157,166,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```  
   
   
-Desable loging to UART so EZSP can using hardware UART.   
+Disable loging to UART so EZSP can using hardware UART.   
 In consol: ``` "SerialLog 0" ```  
   
 Reboot for hardware UART take change.  
