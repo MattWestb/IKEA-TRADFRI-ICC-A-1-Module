@@ -38,8 +38,9 @@ Use RX GIPO03 and TX GIP01 for EZSP com.
  
 ### Tasmota as TCP UART:
 
-Run in the tasmota console ``` backlog rule1 on system#boot do TCPStart 8888 endon ; rule1 1 ; template {"NAME":"ICC-A-1 TCP UART","GPIO":[255,208,157,209,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```
+Run in the tasmota console:  
+``` backlog rule1 on system#boot do TCPStart 8888 endon ; rule1 1 ; template {"NAME":"ICC-A-1 TCP UART","GPIO":[255,208,157,209,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```
 
-Use RX GIPO03 and TX GIP01 for EZSP com.
+Reboot and use RX GIPO03 and TX GIP01 for EZSP com.
 
 In ZHA put ```socket://<your bridge IP>:8888``` as manualy comport and ```115200``` as port speed.
