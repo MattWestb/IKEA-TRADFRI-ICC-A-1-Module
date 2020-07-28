@@ -6,7 +6,7 @@
 one of our maker of bootoader and NCP firmware.
 If all going well sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583).  
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
-For the moment is [HA](HA) working with EZSP version 6.6.4.0.
+For the moment is [HA](HA) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3.
 
 
 ### ICC-1 / ICC-A-1 Module:
