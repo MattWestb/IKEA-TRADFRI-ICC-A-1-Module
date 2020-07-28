@@ -50,4 +50,4 @@ In tasmota console: ``` "SerialLog 0" ```
   
 Reboot and use RX GIPO03 and TX GIP01 for EZSP com.
 
-In ZHA put ```socket://<your bridge IP>:8888``` as manualy comport and ```115200``` as port speed.
+In ZHA put ```socket://<your bridge IP>:8888``` as manually comport and ```115200``` as port speed.
