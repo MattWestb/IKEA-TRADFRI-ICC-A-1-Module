@@ -86,6 +86,8 @@ Its backword compatible with the old EZSP protocol (v 4/5) used in zigpy / bello
 ### Using ZHA:
 [ZHA](HA). 
 
+### Using Z2M:
+Our user [MPM1107](https://github.com/MPM1107) like to implenting but dont geting much help. And [Koenk](https://github.com/Koenkk) have zero intrest and have closing the [thted in his repro](https://github.com/Koenkk/zigbee-herdsman/issues/168#event-3580175320). 
 
 ### More references and sources of information
 - basilfx hacking IKEA TRÅDFRI light bulbs and accessories: https://github.com/basilfx/TRADFRI-Hacking
