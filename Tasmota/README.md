@@ -3,6 +3,9 @@
 ICC-A-1 Zigbee Bridge with one ESP.  
 
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi.  
+
+Inportant if using the primary RX and TX pins the EZSP must being disconnected during the flash of the ESP or it failing (USB UART, ESP UART and EZSP UART its all talking at the same time = no go) and connecting the back then doing the repower after flashing of the ESP its done.
+If using the altenativ UART for the EZSP its no problem flashing the ESP thru USB but dont forgeth doing the repower after flashing its done.
   
 Use Template:   
 ``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,165,157,166,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```  
@@ -41,6 +44,9 @@ Use RX GIPO03 and TX GIP01 for EZSP com.
 ICC-A-1 EZSP on one ESP as TCP UART.  
 
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi.  
+
+Inportant if using the primary RX and TX pins the EZSP must being disconnected during the flash of the ESP or it failing (USB UART, ESP UART and EZSP UART its all talking at the same time = no go) and connecting the back then doing the repower after flashing of the ESP its done.
+If using the altenativ UART for the EZSP its no problem flashing the ESP thru USB but dont forgeth doing the repower after flashing its done.
   
 Run in the tasmota console:  
 ``` backlog rule1 on system#boot do TCPStart 8888 endon ; rule1 1 ; template {"NAME":"ICC-A-1 TCP UART","GPIO":[255,208,157,209,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```
