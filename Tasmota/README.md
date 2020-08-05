@@ -1,6 +1,6 @@
-## Tasmota Zigbee EZSP
+## Tasmota Zigbee (EZSP) Brige
   
-ICC-A-1 Zigbee Bridge with one ESP.  
+IKEA Billy Zigbee Bridge with one ESP.  
 
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi and MQTT.  
 
@@ -42,9 +42,9 @@ Reboot and use RX GIPO03 and TX GIP01 for normal UART and RX GIPO13 (D7) and TX 
  
  [<img src="Z2T02.PNG" alt="HA and ICC-A-1 EZSP v 6.6.4.0" width="512">](Z2T02.PNG)
  
-### Tasmota as TCP UART:
+### Tasmota as TCP UART
   
-ICC-A-1 EZSP on one ESP as TCP UART.  
+IKEA Billy EZSP on one ESP as TCP UART.  
 
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi and MQTT.  
 
