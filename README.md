@@ -6,8 +6,8 @@
 one of our maker of bootoader and NCP firmware.
 If all going well sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583).  
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
-For the moment is [HA](HA) and [tasmota](Tasmota) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3 devices its leving the network.
-
+For the moment is [HA](HA) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3 devices its leving the network.
+[tasmota](Tasmota) have fixing the ZB3 metwork problems and moving from alphstage to more stabile beta for testing.
 
 ### ICC-1 / ICC-A-1 Module:
 
