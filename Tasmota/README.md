@@ -4,14 +4,14 @@ ICC-A-1 Zigbee Bridge with one ESP.
 
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi.  
 
-Inportant if using the primary RX and TX pins the EZSP must being disconnected during the flash of the ESP or it failing (USB UART, ESP UART and EZSP UART its all talking at the same time = no go) and connecting the back then doing the repower after flashing of the ESP its done.
+Inportant if using the primary RX and TX pins the EZSP they must being disconnected or the power for the EZSP during the flash of the ESP or it failing (USB UART, ESP UART and EZSP UART its all talking at the same time = no go) and connecting the back then doing the repower after flashing of the ESP its done.
 If using the altenativ UART for the EZSP (RX GIPO 13 and TX GIPO 15) its no problem flashing the ESP thru USB but dont forgeth doing the repower after flashing its done.  
   
 For normal UART use Template:   
-``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,165,157,166,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```  
+``` {"NAME":"IKEA Billy Zigbee Bridge","GPIO":[255,165,157,166,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} ```  
 
 For alatinate UART use Templete:  
-``` {"NAME":"ICC-A-1 Zigbee Bridge","GPIO":[255,255,157,255,255,255,0,0,255,166,255,165,255],"FLAG":15,"BASE":18} ```  
+``` {"NAME":"IKEA Billy Zigbee Bridge","GPIO":[255,255,157,255,255,255,0,0,255,166,255,165,255],"FLAG":15,"BASE":18} ```  
   
   
 Disable loging to UART so EZSP can using hardware UART.   
