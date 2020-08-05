@@ -17,7 +17,7 @@ For alatinate UART use Templete:
 Disable loging to UART so EZSP can using hardware UART.   
 In tasmota console: ``` "SerialLog 0" ```  
   
-Reboot and use RX GIPO03 and TX GIP01 for normal UART and RX GIPO13 (D7) and TX GIPO15 (D8) for alatinate UAR EZSP com. 
+Reboot and use RX GIPO03 and TX GIP01 for normal UART and RX GIPO13 (D7) and TX GIPO15 (D8) for alatinate UART EZSP com. 
 
   ```
  07:51:45 ZIG: Resetting EZSP device
