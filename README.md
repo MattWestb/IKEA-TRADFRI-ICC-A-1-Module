@@ -68,9 +68,9 @@ Its a very hard one then its not possible connecting with SWD, must reboot in bo
 [Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.6.0.pdf) 2.2 API Changes: EZSP Protocol Version 8 and Secure EZSP Protocol Version 2. (Changed in release 6.7.0.0). Both EZSP and Secure EZSP have adopted a new frame format with the following changes: (1) the fields of "Frame Control" and "Frame ID" are now two bytes; (2) no longer use "Legacy Frame ID"; (3) consume two bits of "Frame Control" to indicate the frame format version
 which is version 1 now. 
 
-Disabling fallback to older prottokoll making its a braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
+Disabling fallback to older prottokoll was making its a braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
 
-Zigpy have getting v8 support and also some Zigbee2Mqtt fans are trying implenting EZSP in Z2M.  
+Zigpy / bellows have getting v8 support and also some Zigbee2Mqtt fans are trying implenting EZSP in Z2M.  
 [s-hadinger](https://github.com/s-hadinger) have it upp and running on Sonoff Zigbee Bridge with Tasmota and hi is woking to getting it working for 100%.  
 
 
