@@ -40,6 +40,8 @@ Reboot and use RX GIPO03 and TX GIP01 for normal UART and RX GIPO13 (D7) and TX 
    
  Your Billy EZSP its up and running on Tasmota Zigbee EZSP.  
  
+ [<img src="Z2T02.PNG" alt="HA and ICC-A-1 EZSP v 6.6.4.0" width="512">](Z2T02.PNG)
+ 
 ### Tasmota as TCP UART:
   
 ICC-A-1 EZSP on one ESP as TCP UART.  
