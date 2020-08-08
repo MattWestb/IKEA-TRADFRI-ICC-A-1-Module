@@ -5,7 +5,7 @@
 [s-hadinger](https://github.com/s-hadinger) have tasmota up running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) as "tasmota zbbridge" build with help of [mtx512](https://github.com/mtx512) one of our maker of bootoader and NCP firmware with EZSP 6.7.6.0 in V8 and have fixing the ZB3 network problems and moving from real alphstage to more stabile beta for testing. [Tasmota zbbridge](Tasmota) its "Ikea Billy EZSP compatible".
  
 Zigpy / bellows the core of [HAs ZHA](HA) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3 devices its leving the network. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V8++.  
-If all is going well with Zigpy / bellows sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583) and making a large pat of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
+If all is going well with Zigpy / bellows it sud working with [HA and OpenHab](https://sprut.ai/client/article/2583) and making a large pat of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
 
 
@@ -86,7 +86,7 @@ Its backword compatible with the old EZSP protocol (v 4/5) used in zigpy / bello
 [ZHA](HA). 
 
 ### Using Z2M:
-Our user [MPM1107](https://github.com/MPM1107) like to implenting but dont geting much help. And [Koenk](https://github.com/Koenkk) have zero intrest and have closing the [thted in his repro](https://github.com/Koenkk/zigbee-herdsman/issues/168#event-3580175320). 
+Our user [MPM1107](https://github.com/MPM1107) like to implenting but dont geting much help. And [Koenk](https://github.com/Koenkk) have zero intrest and have closing the [thred in his repro](https://github.com/Koenkk/zigbee-herdsman/issues/168#event-3580175320). 
 
 ### More references and sources of information
 - basilfx hacking IKEA TRÅDFRI light bulbs and accessories: https://github.com/basilfx/TRADFRI-Hacking
