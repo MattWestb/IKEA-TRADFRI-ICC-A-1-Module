@@ -6,6 +6,7 @@
  
 Zigpy / bellows the core of [HAs ZHA](HA) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3 devices its leving the network. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V8++.  
 If all is going well with Zigpy / bellows it sud working with [HA and OpenHab](https://sprut.ai/client/article/2583) and making a large pat of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
+
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
 
 
