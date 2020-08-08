@@ -2,12 +2,12 @@
 
 ### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module and transforming it in to a "Ikea Billy EZSP".
 
-[s-hadinger](https://github.com/s-hadinger) have the EZSP upp and running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) with help of [mtx512](https://github.com/mtx512)
-one of our maker of bootoader and NCP firmware.  
-If all going well sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583).  
+[s-hadinger](https://github.com/s-hadinger) have tasmota up running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) as "tasmota zbbridge" build with help of [mtx512](https://github.com/mtx512) one of our maker of bootoader and NCP firmware with EZSP 6.7.6.0 in V8 and have fixing the ZB3 network problems and moving from real alphstage to more stabile beta for testing. [Tasmota zbbridge](Tasmota) its "Ikea Billy EZSP compatible".
+ 
+Zigpy / bellows the core of [HAs ZHA](HA) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3 devices its leving the network. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V8++.  
+If all is going well with Zigpy / bellows sud it working with [HA and OpenHab](https://sprut.ai/client/article/2583) and making a large pat of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
-For the moment is [HA](HA) working with EZSP version 6.6.4.0 and 6.7.4.0 but having problems with Zigbee 3 devices its leving the network.  
-[Tasmota](Tasmota) is running on 6.7.6.0 EZSP and have fixing the ZB3 network problems and moving from alphstage to more stabile beta for testing.
+
 
 ### ICC-1 / ICC-A-1 Module:
 
@@ -70,8 +70,7 @@ which is version 1 now.
 
 Disabling fallback to older prottokoll was making its a braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
 
-Zigpy / bellows have getting v8 support and also some Zigbee2Mqtt fans are trying implenting EZSP in Z2M.  
-[s-hadinger](https://github.com/s-hadinger) have it upp and running on Sonoff Zigbee Bridge with Tasmota and hi is woking to getting it working for 100%.  
+Zigpy / bellows have start working on getting v8 support. [s-hadinger](https://github.com/s-hadinger) have it upp and running v8 exlusiv on Sonoff Zigbee Bridge with Tasmota and hi is woking on to getting it working for 100%.  
 
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
