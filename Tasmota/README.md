@@ -64,6 +64,6 @@ In tasmota console: ``` "SerialLog 0" ```
   
 Reboot and use RX GIPO03 and TX GIP01 for normal UART and RX GIPO13 (D7) and TX GIPO15 (D8) for alatinate UART EZSP com.
 
-In ZHA put ```socket://<your bridge IP>:8888``` as manually comport and ```115200``` as port speed.
+In [ZHA](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/HA) put ```socket://<your bridge IP>:8888``` as manually comport and ```115200``` as port speed.
 
 ### One more thanks to [Stefan](https://github.com/s-hadinger) !!!
