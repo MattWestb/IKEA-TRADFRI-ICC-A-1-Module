@@ -57,10 +57,11 @@ grobasozs NCP looks working well and its made in version 6.6.4.0 and 6.7.4.0.
 
 If updating the bootloader and flashing NCP your get a very happy Mighty Gecko being transformed to an "Ikea Billy EZPS".
 
-For more info of current [firmware files:](Firmware).  
-
 Problem with NCP app loaded but crashing:
 Its a very hard one then its not possible connecting with SWD, must reboot in bootloader mode then SWD its working.  
+
+Silabs EZSP is not code compaatible between EFR generations then they is using diferent CPUs but the NCP stack is protocoll compatible, so if using one MG1 or MG2 serie is from the host application transparant.  
+For more info of current [firmware files:](Firmware).  
 
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
@@ -78,6 +79,8 @@ Zigpy / bellows have start working on getting v8 support. [s-hadinger](https://g
 [Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.6.4.0.pdf) Laterst version with EZSP Protocol Version 7 and Secure EZSP Protocol Version 1. 
 
 Its backword compatible with the old EZSP protocol (v 4/5) used in zigpy / bellows and making it working in with HA and OpenHab.
+
+## Supported platforms:
 
 ### Using Tasmota: 
 [Tasmota](Tasmota). 
