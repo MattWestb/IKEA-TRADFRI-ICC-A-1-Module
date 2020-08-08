@@ -1,6 +1,6 @@
-## Tasmota Zigbee (EZSP) Brige
+## IKEA Billy Zigbee Bridge
   
-IKEA Billy Zigbee Bridge with one ESP.  
+IKEA Billy Zigbee Bridge with tasmota on one ESP.  
 
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi and MQTT.  
 
@@ -42,9 +42,11 @@ Reboot and use RX GIPO03 and TX GIP01 for normal UART and RX GIPO13 (D7) and TX 
  
  [<img src="Z2T05.PNG" alt="Tasmota and ICC-A-1 EZSP v 6.7.6.0" width="512">](Z2T05.PNG)
  
-### Tasmota as TCP UART
+### Great thanks to [Stefan](https://github.com/s-hadinger) for making it possible for the ICC-A-1 to working with tasmota zbbridge !!
+ 
+### IKEA Billy EZSP TCP UART
   
-IKEA Billy EZSP on one ESP as TCP UART.  
+IKEA Billy EZSP on one ESP with tasmota as TCP UART for ZHA and other HA systems.  
 
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi and MQTT.  
 
@@ -63,3 +65,5 @@ In tasmota console: ``` "SerialLog 0" ```
 Reboot and use RX GIPO03 and TX GIP01 for normal UART and RX GIPO13 (D7) and TX GIPO15 (D8) for alatinate UART EZSP com.
 
 In ZHA put ```socket://<your bridge IP>:8888``` as manually comport and ```115200``` as port speed.
+
+### One more thanks to [Stefan](https://github.com/s-hadinger) !!!
