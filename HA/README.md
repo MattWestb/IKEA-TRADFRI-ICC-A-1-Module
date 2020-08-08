@@ -8,4 +8,6 @@ The devs its digging deeper and deeper so very soon they finding the problem.
 [<img src="ICC-A-1HA6640.png" alt="HA and ICC-A-1 EZSP v 6.6.4.0" width="512">](ICC-A-1HA6640.png)  
 Commits its made for 6.7.6.0 v8 framing and looks working the same way as the older version and having the same problems with real Zigbee 3 devices.  
 The devs are rebuilding the bellows for supporting diferent command sets / protocoll versions for more flexibility and easyer maintaining the EZSP stacks.   
-Its a huge work but in the end its being the rigth way going for the project and the future.
+Its a huge work but in the end its being the rigth way going for the project in the future.
+
+### Large thanks to [Alexei](https://github.com/Adminiuga) ho have refactoring tones of code in zigpy / bellows for geting ZHA working.
