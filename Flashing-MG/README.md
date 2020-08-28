@@ -91,7 +91,7 @@ Reg 1 = Userdata (2K) (Its an separate region of internal flash ouside the norma
 Reg 2 = Bootloader (10K) (Factory bootloader ??)  
 Reg 3 = Ram (32K)  
 
-Readout with J-Link and Simplicity Commander:   
+For reference, Readout with J-Link and Simplicity Commander:   
   
 [<img src="SC01.PNG" alt="SimplicityCommander" width="512">](E1743.jpg)
   
