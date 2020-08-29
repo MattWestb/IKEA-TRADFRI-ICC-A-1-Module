@@ -46,3 +46,7 @@ for helping making firmware and putting all things together to a working firmwar
  
 ### For flashing your module look at [Flashing-MG:](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/Flashing-MG)  
    
+### Bonus data 
+
+If you like populating the user data with custom manufactur info then flash the [LED1836G9_UD_MW.elf](LED1836G9_UD_MW.elf) in at 0x0fe00000  and you getting the data loged in your HA logfile :-)))  
+(Its one dunped user daata from one IKEA LED1836G9 and patched with manifactur name, board name and manuactur ID and stay in the flash untill doing one device erase)
