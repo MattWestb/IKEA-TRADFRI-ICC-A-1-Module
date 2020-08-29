@@ -49,4 +49,9 @@ for helping making firmware and putting all things together to a working firmwar
 ### Bonus data 
 
 If you like populating the user data with custom manufactur info then flash the [LED1836G9_UD_MW.elf](LED1836G9_UD_MW.elf) in at 0x0fe00000  and you getting the data loged in your HA logfile :-)))  
+```
+2020-08-17 09:07:37 INFO (MainThread) [bellows.zigbee.application] EZSP Radio manufacturer: IKEA of Sweden
+2020-08-17 09:07:37 INFO (MainThread) [bellows.zigbee.application] EZSP Radio board name: Billy EZSP by MW
+2020-08-17 09:07:37 INFO (MainThread) [bellows.zigbee.application] EmberZNet version: 6.6.4.0 build 180
+```
 (Its one dumped user data from one IKEA LED1836G9 and patched with manifactur name, board name and manuactur ID and stay in the flash untill doing one device erase)
