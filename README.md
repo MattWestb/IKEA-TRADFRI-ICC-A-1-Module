@@ -4,8 +4,8 @@
 
 [s-hadinger](https://github.com/s-hadinger) have tasmota up running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) as "tasmota zbbridge" build with help of [mtx512](https://github.com/mtx512) one of our maker of bootoader and NCP firmware with EZSP 6.7.6.0 exlusiv in V8. Have fixing the initial ZB3 network problems and moving from real alphstage to more stabile beta for testing. [Tasmota zbbridge](Tasmota) its "Ikea Billy EZSP compatible".
  
-Zigpy / bellows the core of [HAs ZHA](HA) is up and running on all EZPS versions. The large problems with Zigbee 3 is solved but mutch work is needed for testing and tuing the code for being production redy. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V8++.  
-If all is going well with Zigpy / bellows it sud working with HA and making a large pat of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
+Zigpy / bellows the core of [HAs ZHA](HA) is up and running on all EZPS versions. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V8++. Have moved from the alpha branche multiversions to dev for puplick testing and code fintuning.   
+Zigpy / bellows is working with HA and making a large pat of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
 
 [MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
 
