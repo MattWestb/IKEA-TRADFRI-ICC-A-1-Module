@@ -67,19 +67,16 @@ For more info of current [firmware files:](Firmware).
 
 #### Zigbee EmberZNet: ver 6.7.6.0: 
 
-[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.6.0.pdf) 2.2 API Changes: EZSP Protocol Version 8 and Secure EZSP Protocol Version 2. (Changed in release 6.7.0.0). Both EZSP and Secure EZSP have adopted a new frame format with the following changes: (1) the fields of "Frame Control" and "Frame ID" are now two bytes; (2) no longer use "Legacy Frame ID"; (3) consume two bits of "Frame Control" to indicate the frame format version
-which is version 1 now. 
-
-Disabling fallback to older prottokoll was making its a braking thing for zigpy / bellows thats making the 6.7.x.x and newer relase not working with HA and OpenHab.  
-
-Zigpy / bellows have start working on getting v8 support. [s-hadinger](https://github.com/s-hadinger) have it upp and running v8 exlusiv on Sonoff Zigbee Bridge with Tasmota and hi is woking on to getting it working for 100%.  
+[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.6.0.pdf)
+Have updating the protocol and is not backwards compatible and need the host talking "version 8" or its not working.
+Tasmota and ZHA (dev) have adopting v8 and is working out of box.
 
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
 
-[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.6.4.0.pdf) Laterst version with EZSP Protocol Version 7 and Secure EZSP Protocol Version 1. 
-
-Its backword compatible with the old EZSP protocol (v 4/5) used in zigpy / bellows and making it working in with HA and OpenHab.
+[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.6.4.0.pdf)
+Its the laterst version with EZSP Protocol Version 7 and Secure EZSP Protocol Version 1.  
+Its backword compatible with the old EZSP protocol (v 4/5/6) and can being used in old host systems that have hot inplanting the v8.  
 
 ## Supported platforms:
 
