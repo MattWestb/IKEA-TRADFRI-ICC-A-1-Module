@@ -1,8 +1,7 @@
 ### Home Assistant
-ICC-A-1 is up and running on HA with EZSP ver 6.6.4.0 and 6.7.6.0.  
+ICC-A-1 is up and running on HA as of 0.115.0 with EZSP ver 6.6.4.0 and 6.7.6.0.  
 Use 115200 as comport speed and if you like use [tasmoat as TCP UART](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/Tasmota).  
 Funny thing is that HA in some viues is saying its a deCONZ coordinator (HA bug then some of my devices was in my deCONZ before).  
-Bellows have moving from multiversion to dev branch for more publick testing and have getting the version 20.0 and waiting for more extenc teting and finaly moving on to the main branch.
    
 [<img src="ICC-A-1HA6640C.png" alt="HA and ICC-A-1 EZSP v 6.6.4.0" width="512">](ICC-A-1HA6640C.png)  
 
