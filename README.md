@@ -89,6 +89,16 @@ Its backword compatible with the old EZSP protocol (v 4/5/6) and can being used 
 ### Using Z2M:
 Our user [MPM1107](https://github.com/MPM1107) like to implenting but dont geting much help. And [Koenk](https://github.com/Koenkk) have zero intrest and have closing the [thred in his repro](https://github.com/Koenkk/zigbee-herdsman/issues/168#event-3580175320). 
 
+## New IKEA TRÅDFRI MARKUS EZSP module.
+As of 2020.12 the new GU10 RGBW LED1923R5 is having one new Zigbee module made from Silabs in Finland with model MGM210L022INF2.
+Its based on EFR32MG21 famely (secund gen) with 1024/96 kB of flash/RAM memory.
+Good specifications but its not known if IKEA have using the hardware security functions and locked the chip or only protecting it thru signing the firmware. No OTA have being relesed and no flash dump of the firmware and data setting.
+In the new GU10 RGBW bulb is mounted on one small PCB with one buck converter on the back side.
+
+[<img src="/teardowns/MGM210L022INF2.jpg" alt="MGM210L022INF2" width="512">](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/teardowns/MGM210L022INF2.jpg)
+
+ 
+
 ### More references and sources of information
 - basilfx hacking IKEA TRÅDFRI light bulbs and accessories: https://github.com/basilfx/TRADFRI-Hacking
 - Detailed hardware specification from RIOT OS: https://github.com/RIOT-OS/RIOT/blob/master/boards/ikea-tradfri/doc.txt
