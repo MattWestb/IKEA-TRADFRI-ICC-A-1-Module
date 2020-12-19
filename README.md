@@ -91,7 +91,7 @@ Our user [MPM1107](https://github.com/MPM1107) like to implenting but dont getin
 
 ## New IKEA TRÅDFRI MARKUS EZSP module.
 As of 2020.12 the new GU10 RGBW LED1923R5 is having one new Zigbee module made of Silicon Laboratories Finland Oy with model MGM210LA22JNF2.
-Its based on EFR32MG21A020 (secund gen) with 1024/96 kB of flash/RAM memory.  
+Its based on EFR32MG21A020 (or EFR32MG21A010) secund gen mighty gecko with 1024 flash kb and 96 kB RAM memory (Its not knownd if is a A010 or A020 = 10 or 20 dBm TX Power chip inside).  
 Good specifications but its not known if IKEA have using the hardware security functions and locked the chip or only protecting it thru signing the firmware.  
 No OTA have being relesed and no flash dump of the firmware and data setting.  
 In the new GU10 RGBW bulb is mounted on one small PCB with one buck converter on the back side.
