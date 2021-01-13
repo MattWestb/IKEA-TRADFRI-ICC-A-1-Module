@@ -65,11 +65,11 @@ Silabs EZSP is not code compaatible between EFR generations then they is using d
 For more info of current [firmware files:](Firmware).  
 
 
-#### Zigbee EmberZNet: ver 6.7.6.0: 
+#### Zigbee EmberZNet: ver 6.7.8.0: 
 
-[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.6.0.pdf)
-Have updating the protocol and is not backwards compatible and need the host talking "version 8" or its not working.
-Tasmota and ZHA (dev) have adopting v8 and is working out of box.
+[Release Notes Zigbee EmberZNet SDK 6.7.8.0 GA](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.8.0.pdf)
+Have updating the EZSP protocol to version 8 and Secure EZSP Protocol Version 2 and is not backwards compatible and need the host talking "version 8" or its not working.
+Tasmota and ZHA have adopting v8 and is working out of box and its the prefured firmware for the NCP.
 
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
