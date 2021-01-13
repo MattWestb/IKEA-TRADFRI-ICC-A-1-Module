@@ -67,9 +67,13 @@ For more info of current [firmware files:](Firmware).
 
 #### Zigbee EmberZNet: ver 6.7.8.0: 
 
-[Release Notes Zigbee EmberZNet SDK 6.7.8.0 GA](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.8.0.pdf)
-Have updating the EZSP protocol to version 8 and Secure EZSP Protocol Version 2 and is not backwards compatible and need the host talking "version 8" or its not working.
-Tasmota and ZHA have adopting v8 and is working out of box and its the prefured firmware for the NCP.
+[Release Notes](https://www.silabs.com/documents/public/release-notes/emberznet-release-notes-6.7.8.0.pdf)
+Have updating the EZSP protocol to version 8 and Secure EZSP Protocol Version 2 and is not backwards compatible and need the host talking "version 8" or its not working.  
+Tasmota and ZHA have adopting v8 and is working out of box and its the prefured firmware for the NCP.  
+  
+Newer EZSP is not bringing and good for our Billy (mullti PAN and so on) but the 6.7.x.x is very likely being the last good version that is fitting in the device (with 256kb) and do not getting and R23 update from silabs.  
+So likely is Silabs doing one "golden relese" befor its closing the platform in some years.  
+I have "odering" one updated firware with EZSP 6.7.8.0 and waiting to instaling it  then i getting it.  
 
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
