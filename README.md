@@ -75,6 +75,8 @@ Newer EZSP is not bringing and good for our Billy (mullti PAN and so on) but the
 So likely is Silabs doing one "golden relese" befor its closing the platform in some years.  
 I have "odering" one updated firware with EZSP 6.7.8.0 and waiting to instaling it  then i getting it.  
 
+As of january 2021 the Minimum Longevity is set to December 2027 for all EFR32 first gen.
+
 
 #### Zigbee EmberZNet: ver 6.6.4.0:
 
