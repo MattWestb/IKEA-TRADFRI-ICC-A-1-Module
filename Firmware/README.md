@@ -13,8 +13,9 @@ I have booting in to bootloader after erasing internal flash and flashing botloa
 
 ### Gecko APP = "Billy EZSP":
 NCP app can being flashed from main bootloader with gbl files or with  J-tag / SWD with elf file @0x04000 (not recomended) or s37 file.  
-My current NCP gbl file its not accsepted bye the bootloader but the s37 version flashed over SWD works OK.  
+My first set of NCP gbl file its not accsepted bye the bootloader but the s37 version flashed over SWD works OK.  
 The [NCP_USW_115K2_S1_F256_676_PB14-PB15.s37](NCP_USW_115K2_S1_F256_676_PB14-PB15.s37) its EZSP version 6.7.6.0 and [NCP_USW_115K2_S1_F256_664_PB14-PB15.s37](NCP_USW_115K2_S1_F256_664_PB14-PB15.s37) its version 6.6.4.0 of EZSP = our NCP.  
+My new EZSP 6.7.8.0 can being flashed with SWD [NCP_USW_115k2_F256_678_PB14-PB15-PA0.s37](NCP_USW_115k2_F256_678_PB14-PB15-PA0.s37) or bootloader [NCP_USW_115k2_F256_678_PB14-PB15-PA0.gbl](NCP_USW_115k2_F256_678_PB14-PB15-PA0.gbl).
 
 If all was going well your Mighty Gecko its transformed in to a "Billy EZSP" and sending "hallo world" in gecko lang...  
   
@@ -41,6 +42,7 @@ And you have a very happy Mighty Gecko !!!
 ### [mx512](https://github.com/mtx512)
 ### [grobasoz](https://github.com/grobasoz)
 ### [jnicolson](https://github.com/jnicolson) 
+### and [grobasoz](https://github.com/grobasoz) one more time !
 for helping making firmware and putting all things together to a working firmware set for the "Billy EZSP" ! ! !  
  
  
