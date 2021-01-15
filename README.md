@@ -2,7 +2,7 @@
 
 ### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module and transforming it in to a "IKEA Billy EZSP".
 
-[s-hadinger](https://github.com/s-hadinger) have tasmota up running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) as "tasmota zbbridge" build with help of [mtx512](https://github.com/mtx512) one of our maker of bootoader and NCP firmware with EZSP 6.7.6.0 exlusiv in V8. Have fixing the initial ZB3 network problems and moving from real alphstage to more stabile beta for testing. [Tasmota zbbridge](Tasmota) its "Ikea Billy EZSP compatible".
+[s-hadinger](https://github.com/s-hadinger) have tasmota up running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) as "tasmota zbbridge" build with help of [mtx512](https://github.com/mtx512) one of our maker of bootoader and NCP firmware with EZSP 6.7.8.0 exlusiv in V8. Have fixing the initial ZB3 network problems and moving from real alphstage to more stabile beta for testing. [Tasmota zbbridge](Tasmota) its "Ikea Billy EZSP compatible".
  
 Zigpy / bellows the core of [HAs ZHA](HA) is up and running on all EZPS versions as of HA 0.115.0. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V8++.   
 Zigpy / bellows is working with HA and making a large part of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
@@ -54,7 +54,7 @@ I have changing the pins for RX and TX for matching with the layout of E1743 so 
 Both jnicolsons and grobasoz bootloader use RX and TX pins in a standard way (PB15 and PB14) and its woking.   
 
 jnicolsons NCP app behaving like mx5112s = crashing hard.  
-grobasozs NCP looks working well and its made in version 6.6.4.0 and 6.7.4.0.  
+grobasozs NCP looks working well and its made in version 6.6.4.0. 6.7.4.0 and 6.7.8.0. 
 
 If updating the bootloader and flashing NCP your get a very happy Mighty Gecko being transformed to an "Ikea Billy EZPS".
 
@@ -73,7 +73,7 @@ Tasmota and ZHA have adopting v8 and is working out of box and its the prefured 
   
 Newer EZSP is not bringing and good for our Billy (mullti PAN and so on) but the 6.7.x.x is very likely being the last good version that is fitting in the device (with 256kb) and do not getting and R23 update from silabs.  
 So likely is Silabs doing one "golden relese" befor its closing the platform in some years.  
-I have "odering" one updated firware with EZSP 6.7.8.0 and waiting to instaling it  then i getting it.  
+Gary have coocking one EZSP 6.7.8.0 that is working.  
 
 As of january 2021 the Minimum Longevity is set to December 2027 for all EFR32 first gen.
 
