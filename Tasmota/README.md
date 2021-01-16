@@ -2,6 +2,9 @@
   
 IKEA Billy Zigbee Bridge with tasmota on one ESP.  
 
+  
+Its looks like early version of EZSP having bugs with seting up pull controll on secund gens EFR32 (as sonoff is) and resulting sleepig end devices like IKEA. Smartthings and Philips HUE controllers isd draining the batrries very fasat. Therfor use 6.7.8.0 or newer !!
+
 Grabbing the [dayly dev builds](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota) with the name "tasmota-zbbridge.bin" and flashing your ESP with it and configurating WiFi and MQTT.  
 
 Inportant if using the primary RX and TX pins the EZSP they must being disconnected or the power for the EZSP during the flash of the ESP or it failing (USB UART, ESP UART and EZSP UART its all talking at the same time = no go) and connecting the back then doing the repower after flashing of the ESP its done.
