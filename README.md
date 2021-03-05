@@ -103,7 +103,17 @@ Good specifications but its not known if IKEA have using the hardware security f
 No OTA have being relesed and no flash dump of the firmware and data setting.  
 In the new GU10 RGBW bulb is mounted on one small PCB with one buck converter on the back side.
 
-[<img src="/teardowns/MGM210L022INF2.jpg" alt="MGM210L022INF2" width="512">](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/teardowns/MGM210L022INF2.jpg)
+[<img src="/teardowns/MGM210L022INF2.jpg" alt="MGM210L022INF2" width="512">](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module/tree/master/teardowns/MGM210L022INF2.jpg)  
+  
+And Silverglans have getting SWD pads so very easy looking inside the chhip then i getting time to so that.
+![IMG_20210305_131028 (2)](https://user-images.githubusercontent.com/49618193/110117714-8d6bb500-7db9-11eb-964d-9d07c3edbf48.jpg)
+![IMG_20210305_131105 (2)](https://user-images.githubusercontent.com/49618193/110117733-92c8ff80-7db9-11eb-9b1e-e70305ea9943.jpg)
+Rsett and pairing button is on the upperside opositee from the SWD so easy finding the ports and if i remeber right is the default RX and TX un the underside of the module that looks beig unpopulated and perhaps need some fixing for working ad coordinate with one new firmware.  
+I think the 16 pin IC (U1) is one buck converter only for the module 3.3V that is not so bad !!!  
+The antenna design is made as Silabs reference dising with good ground plane and no metal in the RF zone.
+  
+I was getting the Silverglans for 15€ in the recycling corner and the last new GU10 CWS3 in Wien plus one shortcut botton and one black symfonisk so can testing the new ZHA quirks :-))
+
 
  
 
