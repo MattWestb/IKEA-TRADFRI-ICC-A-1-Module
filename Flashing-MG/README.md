@@ -195,6 +195,26 @@ Then the uploade its finish and if CRC its OK you getting a message and can rebo
 
 If you is having on Silabs STK you can unbricking with Siply commander but you need having the reset pin conected to the dev kit and the debug selected to "out".   
 "Normal" J-Link adapters dont have the script for halting the CPU after teriggering on reset so they is nott working.   
-Click on "recover bricked devic" and then uppload one cobined boot loader to the chip.  
-  
+Click on "recover bricked devic" and then uppload one cobined boot loader to the chip.   
+I can being you need putting the chip type "EFR32MG1P132F256IM32" in the "device" for getting the unbrick to working.  
+In CLI is more likely you is getting it working then putting the SWO sprrd down like this:
+```
+PS D:\SSv5\developer\adapter_packs\commander> .\commander.exe  device lock --debug disable --speed 100 -d efr32mg1p
+Setting debug interface speed to 100 kHz
+Unlocking debug access (triggers a mass erase)...
+Unlocking debug access (triggers a mass erase)...
+Attempting EFR32/EFM32 Series 1 recovery using system bus stall...
+Attempting connection while holding device in reset...
+Waiting for AAP mass erase to complete...
+Verifying debug access...
+Found DP ID:  0x2ba01477
+Found AAP ID: 0x24770011
+Chip successfully unlocked.
+DONE
+PS D:\SSv5\developer\adapter_packs\commander> .\commander.exe  device masserase  -d efr32mg1p
+Reconfiguring debug connection with detected device part number: EFR32MG1P132F256IM32
+Erasing chip...
+Flash was erased successfully
+DONE
+```
 
