@@ -197,7 +197,7 @@ If you is having on Silabs STK you can unbricking with Siply commander but you n
 "Normal" J-Link adapters dont have the script for halting the CPU after teriggering on reset so they is nott working.   
 Click on "recover bricked devic" and then uppload one cobined boot loader to the chip.   
 I can being you need putting the chip type "EFR32MG1P132F256IM32" in the "device" for getting the unbrick to working.  
-In CLI is more likely you is getting it working then putting the SWO sprrd down like this:
+In CLI is more likely you is getting it working then putting the SWO speed down like this:
 ```
 PS D:\SSv5\developer\adapter_packs\commander> .\commander.exe  device lock --debug disable --speed 100 -d efr32mg1p
 Setting debug interface speed to 100 kHz
