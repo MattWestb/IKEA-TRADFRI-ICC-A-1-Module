@@ -193,5 +193,8 @@ Then the uploade its finish and if CRC its OK you getting a message and can rebo
 #### If erasing the internal flash you must flashing both the first stage and secund stage (Main bootloader) or your gecko dont boot at all or making cracy GECKO things !
 #### I have booting to bootloader after erasing internal flash and flashing botloader and reading it back and the first 0x0800 wos only ff = empty, and from the bootloader flashing one app and it wos writing the app at wrong ofset and coruppted the perfials and lockbits aria = Hard brick !!!
 
+If you is having on Silabs STK you can unbricking with Siply commander but you need having the reset pin conected to the dev kit and the debug selected to "out".   
+"Normal" J-Link adapters dont have the script for halting the CPU after teriggering on reset so they is nott working.   
+Click on "recover bricked devic" and then uppload one cobined boot loader to the chip.  
   
 
