@@ -74,7 +74,7 @@ Shall being posssiblee adding to the firmware file 2 with this syntax only adapt
 Converts blink.s37 to hex format, while simultaneously defining the tokens defined in tokens.txt and on the command line.
 
 S37 as in file and the out file difrernt with s37 fille or one GBL.
-Both method shall prudusin this from bellow info:
+Both method shall prudusing this from bellow info:
 ```
 Manufacturer: IKEA of Sweden
 Board name: Billy EZSP by MW
@@ -83,3 +83,5 @@ EmberZNet version: 6.9.0.0 build 178
 But with one other EZSP version ;-))
 
 The token is stored in the user data and is staying if doing flash erase and normal firmwar flashing but not chip erase.
+
+More firmware for Billys is putted in [EFR32 FW](https://github.com/MattWestb/EFR32-FW/tree/main/Billy_EZSP) like one router  with button joining / leaving and newer EZSP allso with direct shildren = 0 for forcing end device using routers.
