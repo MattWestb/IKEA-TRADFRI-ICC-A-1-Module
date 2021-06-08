@@ -1,0 +1,4 @@
+
+MFG_STRING                    : "IKEA of Sweden"
+MFG_BOARD_NAME                : "Billy EZSP by MW"
+MFG_MANUF_ID                  : 0x110C
