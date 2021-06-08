@@ -57,3 +57,29 @@ If you like populating the user data with custom manufactur info then flash the 
 2020-08-30 10:17:39 INFO (MainThread) [bellows.zigbee.application] EmberZNet version: 6.7.6.0 build 327
 ```
 (Its one dumped user data from one IKEA LED1836G9 and patched with manifactur name, board name and manuactur ID and stay in the flash untill doing one device erase)
+
+New version  that is adding  the tocken with Simplicity commander:
+```
+.\commander.exe flash --tokengroup znet --tokenfile .\tokens-MW.txt -d EFR32MG1P132F256IM32
+WARNING: The string for token MFG_BOARD_NAME (Billy EZSP by MW) fills all 16 bytes of the token space. The string will not be zero terminated.
+Writing 2048 bytes starting at address 0x0fe00000
+Comparing range 0x0FE00000 - 0x0FE007FF (2 KB)
+Erasing range 0x0FE00000 - 0x0FE007FF (1 sector, 2 KB)
+Programming range 0x0FE00000 - 0x0FE001FF (512 Bytes)
+Programming range 0x0FE00200 - 0x0FE003FF (512 Bytes)
+DONE
+```
+Shall being posssiblee adding to the firmware file 2 with this syntax only adapting it to the privius command:
+>$ commander convert blink.s37 --tokengroup znet --tokenfile tokens.txt --device EFR32MG1P --outfile blink.hex
+Converts blink.s37 to hex format, while simultaneously defining the tokens defined in tokens.txt and on the command line.
+
+S37 as in file and the out file difrernt with s37 fille or one GBL.
+Both method shall prudusin this from bellow info:
+```
+Manufacturer: IKEA of Sweden
+Board name: Billy EZSP by MW
+EmberZNet version: 6.9.0.0 build 178
+```
+But with one other EZSP version ;-))
+
+The token is stored in the user data and is staying if doing flash erase and normal firmwar flashing but not chip erase.
