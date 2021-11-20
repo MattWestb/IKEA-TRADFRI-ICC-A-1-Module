@@ -26,3 +26,5 @@ User Data: E1743_UD.bin
 | GND | GND | GND |
 | PB14 | TX | TX |
 | PB15 | RX | RX |
+
+The User Data E1743_UD.s37 can being used converting E1766 to one E1743 without flashing main flash and boot loader.
