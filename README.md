@@ -120,16 +120,19 @@ I was getting the Silverglans for 15€ in the recycling corner and the last new
   ![MGM210LA22JNF2](https://user-images.githubusercontent.com/49618193/157933450-aaead64c-b6ee-47e6-8492-2d5972321959.PNG)
 
 My pinout is the same as Billy: 
-  - 1 VDD
-  - 2 GND
-  - 3 PC01 RX
-  - 4 PC00 TX
-  - 5 PC04 PTI DATA
-  - 6 PC05 PTI SYNC/FRAME
-  - 7 PA01 SWCLK
-  - 8 PA02 SWDIO
-  - 9 PA03 SWO
-  - 10 RESET
+
+| MW pin | Modul pad | EFR32 pins | Description |
+|--------|-----------|------------|-------------|
+| 1      | VDD       | VDD        | 3.3V        |
+| 2      | GND       | GND        | GND         |
+| 3      | 7         | PC01       | RX          |
+| 4      | 8         | PC00       | TX          |
+| 5      | 18        | PC05       | PTI Frame   |
+| 6      | 17        | PC04       | PTI Data    |
+| 7      | 1         | PF0        | SWCLK       |
+| 8      | 2         | PF1        | SWDIO       |
+| 8      | 3         | PF2        | SWO         |
+| 10     | 11        | RESET      | Target reset | 
 
 Force bootloader pin not defined then not needed then using software command and then using WSTK for debricking the chip is only the resert pin needed.
  
