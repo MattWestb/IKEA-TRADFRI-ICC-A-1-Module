@@ -114,9 +114,24 @@ Rsett and pairing button is on the upperside opositee from the SWD so easy findi
 I think the 16 pin IC (U1) is one buck converter only for the module 3.3V that is not so bad !!!  
 The antenna design is made as Silabs reference dising with good ground plane and no metal in the RF zone.
   
-I was getting the Silverglans for 15€ in the recycling corner and the last new GU10 CWS3 in Wien plus one shortcut botton and one black symfonisk so can testing the new ZHA quirks :-))
+I was getting the Silverglans for 15€ in the recycling corner and the last new GU10 CWS3 in Wien plus one shortcut botton and one black symfonisk so can testing the new ZHA quirks :-))  
+  
+  Silabs reference design pin out that i shall using for my pinout and firmware:
+  ![MGM210LA22JNF2](https://user-images.githubusercontent.com/49618193/157933450-aaead64c-b6ee-47e6-8492-2d5972321959.PNG)
 
+My pinout is the same as Billy: 
+  - 1 VDD
+  - 2 GND
+  - 3 PC01 RX
+  - 4 PC00 TX
+  - 5 PC04 PTI DATA
+  - 6 PC05 PTI SYNC/FRAME
+  - 7 PA01 SWCLK
+  - 8 PA02 SWDIO
+  - 9 PA03 SWO
+  - 10 RESET
 
+Force bootloader pin not defined then not needed then using software command and then using WSTK for debricking the chip is only the resert pin needed.
  
 
 ### More references and sources of information
@@ -124,3 +139,4 @@ I was getting the Silverglans for 15€ in the recycling corner and the last new
 - Detailed hardware specification from RIOT OS: https://github.com/RIOT-OS/RIOT/blob/master/boards/ikea-tradfri/doc.txt
 - Official manual from Silabs: https://www.silabs.com/documents/public/reference-manuals/efr32xg1-rm.pdf
 - Official datasheet from Silabs: https://www.silabs.com/documents/public/data-sheets/efr32mg1-datasheet.pdf
+
