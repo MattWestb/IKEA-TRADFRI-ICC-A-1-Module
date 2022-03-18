@@ -127,14 +127,14 @@ My pinout is the same as Billy:
 | 2      | GND       | GND        | GND         |
 | 3      | 7         | PC01       | RX          |
 | 4      | 8         | PC00       | TX          |
-| 5      | 18        | PC05       | PTI Frame   |
-| 6      | 17        | PC04       | PTI Data    |
-| 7      | 1         | PF0        | SWCLK       |
-| 8      | 2         | PF1        | SWDIO       |
-| 8      | 3         | PF2        | SWO         |
+| 5      | 18        | PC05       | PTI Frame / Sync   |
+| 6      | 17        | PC04       | PTI Dout / Data    |
+| 7      | 1         | PA0        | SWCLK       |
+| 8      | 2         | PA1        | SWDIO       |
+| 8      | 3         | PA2        | SWO         |
 | 10     | 11        | RESET      | Target reset | 
 
-Force bootloader pin not defined then not needed then using software command and then using WSTK for debricking the chip is only the resert pin needed.
+Force bootloader pin PD01 is defined but noramaly not needed then using software command and then using WSTK for debricking the chip is only the resert pin needed.
  
 
 ### More references and sources of information
