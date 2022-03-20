@@ -129,9 +129,9 @@ My pinout is the same as Billy:
 | 4      | 8         | PC00       | TX          |
 | 5      | 18        | PC05       | PTI Frame / Sync   |
 | 6      | 17        | PC04       | PTI Dout / Data    |
-| 7      | 1         | PA0        | SWCLK       |
-| 8      | 2         | PA1        | SWDIO       |
-| 8      | 3         | PA2        | SWO         |
+| 7      | 1         | PA1        | SWCLK       |
+| 8      | 2         | PA2        | SWDIO       |
+| 8      | 3         | PA3        | SWO         |
 | 10     | 11        | RESET      | Target reset | 
 
 Force bootloader pin PD01 is defined but noramaly not needed then using software command and then using WSTK for debricking the chip is only the resert pin needed.
