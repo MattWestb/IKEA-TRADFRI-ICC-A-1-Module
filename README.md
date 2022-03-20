@@ -133,6 +133,7 @@ My pinout is the same as Billy:
 | 8      | 2         | PA2        | SWDIO       |
 | 8      | 3         | PA3        | SWO         |
 | 10     | 11        | RESET      | Target reset | 
+| NA     | 9         | PD01       | Boot Loader Pin |
 
 Force bootloader pin PD01 is defined but noramaly not needed then using software command and then using WSTK for debricking the chip is only the resert pin needed.
  
