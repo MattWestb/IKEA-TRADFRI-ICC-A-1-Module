@@ -4,4 +4,4 @@ Main flash not dumped then Herr Segger was not liking it and was doing one flash
 Flashed one 1 gen bootloader (infact one compleet dumped Sigal repeter) and the the extracted OTA and it was up and running.  
 
 IKEA have som very bad customer that is returing only 1/3 of the product and like getting 100% mony back.  
-After 5 minutes with recycling hub i was getting it with out the right mountings, USB chager, Signal repeter and remote for 13.99€ = 90% off witout grantee !!!
+After 5 minutes with recycling hub i was getting it with out the right mountings, USB chager and cable, Signal repeter and remote for 13.99€ = 90% off witout grantee !!!
