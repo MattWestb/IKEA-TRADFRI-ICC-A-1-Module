@@ -25,8 +25,8 @@ Zigpy / bellows is working with HA and making a large part of the comunity "EZSP
 |------------|-----------|-------|
 | 02         | PB15      | RX |
 | 03         | PB14      | TX |
-| 04         | PC10      | PTI Frame / VCom RX |
-| 05         | PC11      | PTI Data / VCom TX |
+| 04         | PC10      | PTI Frame / VCom RX / CTS |
+| 05         | PC11      | PTI Data / VCom TX / RTC |
 | 06         | PF0       | SWCLK |
 | 07         | PF1       | SWDIO |
 | 08         | PF2       | SWO   |
@@ -36,6 +36,7 @@ Zigpy / bellows is working with HA and making a large part of the comunity "EZSP
 | 16         | PA0       | Force bootloader (LL buttom) | 
 
 RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot in bootloadre mode.
+Versions with pin 4 / 5 for PTI / VCom and HW flowontroll.
 
 ### Flashing:
 
