@@ -35,7 +35,7 @@ Zigpy / bellows is working with HA and making a large part of the comunity "EZSP
 | 12         | GND       | GND |
 | 16         | PA0       | Force bootloader (LL buttom) | 
 
-RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot in bootloadre mode.
+RX and TX pins is matched for the pads of E1743 and the LL buttom its force boot in bootloadre mode.  
 Versions with pin 4 / 5 for PTI / VCom and HW flowontroll.
 
 ### Flashing:
