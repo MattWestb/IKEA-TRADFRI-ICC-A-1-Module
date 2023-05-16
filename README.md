@@ -1,13 +1,18 @@
 # IKEA TRÅDFRI Billy EZSP.
 
+"IKEA Billy EZSP" is IKEA TRÅDFRI ICC-A-1 Zigbee radio module (based on Silicon Labs EFR32 Zigbee SoC) removed from IKEA Trådfri series Zigbee and reflashed with other firmare in order to be repurposed as a Zigbee Coordinator adapter with a serial interface called EZSP (EmberZNet Serial Protocol).
+
 ### Loading Silicon Labs EmberZNet Zigbee coordinator firmware on IKEA TRÅDFRI ICC-A-1 Module and transforming it in to a "IKEA Billy EZSP".
 
-[s-hadinger](https://github.com/s-hadinger) have tasmota up running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) as "tasmota zbbridge" build with help of [mtx512](https://github.com/mtx512) one of our maker of bootoader and NCP firmware with EZSP 6.7.8.0 exlusiv in V8. Have fixing the initial ZB3 network problems and moving from real alphstage to more stabile beta for testing. [Tasmota zbbridge](Tasmota) its "Ikea Billy EZSP compatible".
- 
-Zigpy / bellows the core of [HAs ZHA](HA) is up and running on all EZPS versions as of HA 0.115.0. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V8++.   
-Zigpy / bellows is working with HA and making a large part of the comunity "EZSP compatible" and it is "Ikea Billy EZSP compatible".  
+EZSP (EmberZNet Serial Protocol) is the Zigbee Coordinator serial interface for Silicon Labs (a.k.a. Silabs) radio SoC/module firmware, including the Zigbee modules tht IKEA uses in its "Trådfri" series of devices which can be disassembled and the module reused as a Zigbee Coordinator adapter.
 
-[MPM1107](https://github.com/MPM1107) like to implenting it for Z2M. If hi and the other in Z2M team making it working then it being a graet thing in the HA comunity.  
+[s-hadinger](https://github.com/s-hadinger) have tasmota up running on [Sonoff Zigbee Bridge](https://github.com/arendst/Tasmota/issues/8583) as "tasmota zbbridge" build with help of [mtx512](https://github.com/mtx512) one of our maker of bootoader and NCP firmware with EZSP 6.7.8.0 exlusiv in V8. Have fixing the initial ZB3 network problems and moving from real alphstage to more stabile beta for testing. [Tasmota zbbridge](Tasmota) its "Ikea Billy EZSP compatible".
+
+[ZHA integration for Home Assistant](HA) and [Zigbee for Domoticz plugin](https://github.com/zigbeefordomoticz/Domoticz-Zigbee) both depend on on [zigpy](https://github.com/zigpy/zigpy) and [bellows](https://github.com/zigpy/bellows) libraries in combination to support all EZSP versions as of HA 0.115.0. The devs have commited tons of refacted code for making it more fexible and modular for V4 to V9 and later. The developers of zigpy and bellows is working with Home Assistant developers and other open source communities to make home automation applications "EZSP compatible" and thus also "Ikea Billy EZSP compatible".  
+
+[Zigbee2MQTT (a.k.a. Z2M)](https://github.com/Koenkk/zigbee2mqtt) and [IoBroker](https://github.com/ioBroker/ioBroker.zigbee) also have an initial experimental implementation of EZSP adapter support via their common depenecy the [zigbee-herdsman library](https://github.com/Koenkk/zigbee-herdsman) (a open source Zigbee gateway solution with Node.js JavaScript runtime back-end written in TypeScript).
+
+[openHAB ZigBee Binding](https://www.openhab.org/addons/bindings/zigbee/) depends on [zsmartsystems ZigBee Cluster Library Java framework](https://github.com/zsmartsystems/com.zsmartsystems.zigbee) to support the serial interface for multiple Zigbee stacks which includes Silabs EZSP support as well.
 
 
 ### ICC-1 / ICC-A-1 Module:
@@ -90,13 +95,19 @@ Its backword compatible with the old EZSP protocol (v 4/5/6) and can being used 
 ## Supported platforms:
 
 ### Using Tasmota: 
-[Tasmota](Tasmota). 
+See [Tasmota](Tasmota). 
 
-### Using ZHA:
-[ZHA](HA). 
+### Using ZHA integration in Home Assistant:
+See [ZHA](HA). 
 
-### Using Z2M:
-Our user [MPM1107](https://github.com/MPM1107) like to implenting but dont geting much help. And [Koenk](https://github.com/Koenkk) have zero intrest and have closing the [thred in his repro](https://github.com/Koenkk/zigbee-herdsman/issues/168#event-3580175320). 
+### Using Zigbee for Domoticz plugin:
+See [Zigbee for Domoticz plugin](https://github.com/zigbeefordomoticz/Domoticz-Zigbee) on GitHub and [Zigbee For Domotic](https://www.domoticz.com/wiki/ZigbeeForDomotic) wiki.
+
+### Using Zigbee2MQTT (a.k.a. Z2M) or IoBroker:
+See [Zigbee2MQTT (a.k.a. Z2M)](https://github.com/Koenkk/zigbee2mqtt) and [IoBroker](https://github.com/ioBroker/ioBroker.zigbee) respectivly which both have initial experimental implementation of EZSP adapter support via their common depenecy the [zigbee-herdsman library](https://github.com/Koenkk/zigbee-herdsman) (a open source Zigbee gateway solution with Node.js JavaScript runtime back-end written in TypeScript). For more information see discussion as https://github.com/Koenkk/zigbee-herdsman/issues/319
+
+### Using openHAB ZigBee Binding
+See [openHAB ZigBee Binding](https://www.openhab.org/addons/bindings/zigbee/). FYI it depends on [zsmartsystems ZigBee Cluster Library Java framework](https://github.com/zsmartsystems/com.zsmartsystems.zigbee) to support the serial interface for multiple Zigbee stacks which includes Silabs EZSP support as well.
 
 ## New IKEA TRÅDFRI MARKUS EZSP module.
 As of 2020.12 the new GU10 RGBW LED1923R5 is having one new Zigbee module made of Silicon Laboratories Finland Oy with model [MGM210LA22JNF2](https://fccid.io/QOQMGM210L/Internal-Photos/Internal-Photos-4211021).
